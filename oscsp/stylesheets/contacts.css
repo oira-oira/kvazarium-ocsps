@@ -1,0 +1,357 @@
+/* line 1, ../sass/contacts.scss */
+select:active, select:focus, select:visited {
+  outline: none;
+}
+
+/* line 2, ../sass/contacts.scss */
+a:active, a:focus {
+  outline: none;
+}
+
+/* line 3, ../sass/contacts.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 4, ../sass/contacts.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/contacts.scss */
+button:active {
+  outline: none;
+}
+
+/* line 8, ../sass/contacts.scss */
+body {
+  width: 100%;
+  max-width: 1180px;
+}
+
+/* line 12, ../sass/contacts.scss */
+
+/*---content--------------------------*/
+/* line 290, ../sass/contacts.scss */
+.container {
+  width: 100%;
+}
+
+/* line 293, ../sass/contacts.scss */
+.details_contacts {
+  margin: 35px 0 0 1.3220339%;
+  display: inline-block;
+}
+
+/* line 297, ../sass/contacts.scss */
+.second_block {
+  display: inline-block;
+}
+
+/* line 300, ../sass/contacts.scss */
+.head_contacts {
+  width: 115px;
+  height: 19px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 61px;
+}
+
+/* line 311, ../sass/contacts.scss */
+.text_contacts {
+  display: block;
+  background: url("contacts/phone.png") no-repeat;
+  width: 201px;
+  height: 38px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 38px;
+  margin-bottom: 53px;
+  padding-left: 63px;
+}
+
+/* line 324, ../sass/contacts.scss */
+.mail_contacts {
+  display: block;
+  background: url("contacts/mail.png") no-repeat;
+  width: 166px;
+  height: 38px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 55px;
+  padding-left: 63px;
+}
+
+/* line 337, ../sass/contacts.scss */
+.street_contacts {
+  display: block;
+  background: url("contacts/street.png") no-repeat;
+  width: 236px;
+  height: 38px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 103px;
+  padding-left: 63px;
+}
+
+/* line 350, ../sass/contacts.scss */
+.block_registr {
+  margin: 33px 0 52px 1.3220339%;
+}
+
+/* line 353, ../sass/contacts.scss */
+.form_contacts {
+  width: 173px;
+  height: 19px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+/* line 365, ../sass/contacts.scss */
+.block_map {
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+/* line 370, ../sass/contacts.scss */
+iframe {
+  width: 309px;
+}
+
+/* line 376, ../sass/contacts.scss */
+.inform_reg {
+  height: 35px;
+  display: block;
+  margin-bottom: 25px;
+}
+
+/* line 381, ../sass/contacts.scss */
+.inform_str {
+  vertical-align: middle;
+  width: 88px;
+  height: 35px;
+  background-color: #ccc;
+}
+
+/* line 388, ../sass/contacts.scss */
+.text_style {
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+/* line 402, ../sass/contacts.scss */
+.text_reviews {
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+  width: 101px;
+  height: 28px;
+  background-color: #ccc;
+  border: 2px solid #ccc;
+  text-align: center;
+  padding-top: 4px;
+}
+
+/* line 417, ../sass/contacts.scss */
+.coments {
+  height: 113px;
+}
+
+/* line 420, ../sass/contacts.scss */
+.input_str {
+  height: 35px;
+  width: 220px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+/* line 426, ../sass/contacts.scss */
+.text_name {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* line 431, ../sass/contacts.scss */
+.btn {
+  width: 223px;
+  height: 35px;
+  background-color: #fe9900;
+  margin: 29px 0 0 0;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+/* line 443, ../sass/contacts.scss */
+.reviews_name {
+  width: 305px;
+  height: 77px;
+  max-width: 704px;
+  max-height: 77px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+/* line 451, ../sass/contacts.scss */
+.new_style {
+  display: block;
+}
+
+/* line 454, ../sass/contacts.scss */
+.input_text {
+  display: block;
+  width: 704px;
+  height: 77px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+/*_______share__________*/
+/* line 464, ../sass/contacts.scss */
+.block_share {
+  height: auto;
+  width: auto;
+  margin: 17px 27px 19px 9.3220339%;
+}
+
+/* line 470, ../sass/contacts.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 481, ../sass/contacts.scss */
+.share_fb {
+  display: inline-block;
+  opacity: 0.7;
+  margin: 0 0 0 7px;
+}
+
+/* line 488, ../sass/contacts.scss */
+.share_vk {
+  display: inline-block;
+  border-style: none;
+  opacity: 0.7;
+}
+
+/* line 493, ../sass/contacts.scss */
+.share_fb:hover {
+  opacity: 1;
+}
+
+/* line 496, ../sass/contacts.scss */
+.share_vk:hover {
+  opacity: 1;
+}
+
+/*______foter_____*/
+/* line 506, ../sass/contacts.scss */
+
+
+
+@media (min-width: 497px) {
+  /* line 652, ../sass/contacts.scss */
+  iframe {
+    width: 480px;
+    height: 255px;
+  }
+
+  /* line 656, ../sass/contacts.scss */
+  .inform_str {
+    width: 197px;
+  }
+
+  /* line 659, ../sass/contacts.scss */
+  .text_reviews {
+    width: 197px;
+  }
+
+  /* line 662, ../sass/contacts.scss */
+  .reviews_name {
+    width: 220px;
+  }
+}
+
+@media (min-width: 990px) {
+  /* line 694, ../sass/contacts.scss */
+  .block_map {
+    float: right;
+    margin: 33px 0 0 115px;
+  }
+
+  /* line 698, ../sass/contacts.scss */
+  .details_contacts {
+    margin: 35px 0 0 9.3220339%;
+  }
+
+  /* line 701, ../sass/contacts.scss */
+  .block_registr {
+    margin: 33px 0 52px 9.3220339%;
+  }
+}
+@media (min-width: 1064px) {
+  /* line 707, ../sass/contacts.scss */
+  .input_str {
+    width: 507px;
+  }
+
+  /* line 710, ../sass/contacts.scss */
+  .reviews_name {
+    width: 704px;
+  }
+}
+@media (min-width: 1180px) {
+  /* line 719, ../sass/contacts.scss */
+  body {
+    width: 1180px;
+    margin: auto;
+  }
+
+
+  .visit_style {
+    color: white;
+  }
+
+ 
+}

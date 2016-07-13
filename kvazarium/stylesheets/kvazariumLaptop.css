@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@media (min-width: 789px) {
+  /* line 15, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .linea {
+    border-bottom: 1px solid #eaaa2a;
+    display: block;
+    position: relative;
+    top: 89px;
+    background-color: white;
+    width: 100%;
+  }
+}
+@media (min-width: 1022px) {
+  /* line 15, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .linea {
+    top: 99px;
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 29, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .nav {
+    width: 89.89583333333333%;
+    /*863 /960 */
+    height: 100px;
+    margin: 26px 5.3125% 56px 4.89583333333333%;
+    padding: 0;
+  }
+}
+@media (min-width: 1022px) {
+  /* line 29, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .nav {
+    margin: 36px 6.69491525423729% 56px 6.69491525423729%;
+    /* 79 / 1180 ; 78 /1180*/
+    width: 86.69492%;
+  }
+}
+@media (min-width: 1708px) {
+  /* line 29, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .nav {
+    width: 53.33333333333333%;
+    margin: 36px 23.38541666666667% 0 23.33333333333333%;
+    /* 449 / 1920  ; 448  /1920 */
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 48, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .home {
+    margin: 0;
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 58, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .order_a_site {
+    margin-top: 0;
+  }
+}
+
+/* hidden menu  screen 960px, 1180px, 1591px, hover menu */
+@media (min-width: 789px) {
+  /* line 85, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .menu {
+    margin: 23px 0 0 6.30182%;
+  }
+}
+@media (min-width: 1022px) {
+  /* line 85, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .menu {
+    height: 18px;
+    width: 28.27346465816918%;
+    /*  244 / 863*/
+    margin: 24px  0 0 22.13209733487833%;
+    /* 191 / 863 */
+  }
+}
+@media (min-width: 980px) {
+  /* line 85, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .menu {
+    width: 23.8514173998045%;
+    /* 244 / 1023 */
+    margin: 24px  0 0 34.40860215053763%;
+    /* 352 /1023 */
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 132, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .hidden_contacts {
+    position: relative;
+    left: 20.5%;
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 142, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .hidden_text {
+    font-size: 1.125em;
+    /* 18px / 16 */
+  }
+}
+
+  /*______progects gallery screen 960px  1080px,1960px
+in css file _____*/
+@media (min-width: 789px) {
+  /* line 164, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .default {
+    display: none;
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 176, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .gallery {
+    width: 626px;
+    margin-top: 56px;
+  }
+}
+
+@media (min-width: 1022px) {
+  /* line 185, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .gallery {
+    width: 1021px;
+    /*1021px;  */
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 193, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .block_gallery {
+    width: 626px;
+    height: 276px;
+    margin-bottom: 68px;
+  }
+}
+@media (min-width: 1022px) {
+  /* line 201, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .block_gallery {
+    width: 1021px;
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 206, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .first_img {
+    margin-right: 7%;
+  }
+}
+
+@media (min-width: 789px) {
+  /* line 211, ../../sass/Новая папка/kvazariumLaptop.scss */
+  footer {
+    margin-top: 117px;
+  }
+}
+
+@media (min-width: 786px) {
+  /* line 216, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .copyright {
+    margin: 9px 29.041667%   26px 5%;
+  }
+}
+@media (min-width: 790px) {
+  /* line 216, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .copyright {
+    margin: 9px 44.041667%    26px 4%;
+  }
+}
+@media (min-width: 1021px) {
+  /* line 216, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .copyright {
+    margin: 9px 50.25423728813559% 26px 5%;
+  }
+}
+
+@media (min-width: 591px) {
+  /* line 228, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .block_href {
+    float: right;
+    width: 40.46875%;
+    height: 34px;
+    margin-right: 3.4375%;
+    display: block;
+  }
+}
+@media (min-width: 787px) {
+  /* line 228, ../../sass/Новая папка/kvazariumLaptop.scss */
+  .block_href {
+    width: 204px;
+    margin: 0 4.3125% 0 0;
+  }
+}

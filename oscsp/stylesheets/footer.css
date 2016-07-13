@@ -1,0 +1,157 @@
+footer {
+  width: 100%;
+  height: 64px;
+  background-color: #fe9900;
+  display: block;
+  clear: both;
+}
+
+/* line 483, ../sass/ocspsPhone.scss */
+.logo_copyright {
+  margin: 5px 0 0 4%;
+  display: inline-block;
+  float: left;
+}
+
+/* line 488, ../sass/ocspsPhone.scss */
+.footer_logo {
+  background-image: url("img/logo_footer.png");
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 40px;
+}
+
+/* line 494, ../sass/ocspsPhone.scss */
+.copyright {
+  width: 47px;
+  height: 7px;
+  color: lightgrey;
+  font-family: "Segoe UI";
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+/* line 503, ../sass/ocspsPhone.scss */
+.footer_contacts {
+  margin: 16px 26px 0 26.271186400000001%;
+  display: none;
+}
+
+/* line 508, ../sass/ocspsPhone.scss */
+.footer_phone {
+  background: url("img/footer_phone.png");
+  background-repeat: no-repeat;
+  background-position: 1px 5px;
+  padding-left: 14px;
+  margin: 0 33px 0 0;
+  width: 146px;
+  height: 15px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+/* line 522, ../sass/ocspsPhone.scss */
+.footer_mail {
+  width: 145px;
+  height: 16px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 33px;
+  background-color: white;
+  background: url("img/footer_mail.png");
+  background-repeat: no-repeat;
+  background-position: 0 7px;
+  padding-left: 20px;
+}
+
+/* line 536, ../sass/ocspsPhone.scss */
+.footer_social {
+  display: inline-block;
+  margin: 22px 9.4915254% 0 0;
+  float: right;
+}
+
+/* line 541, ../sass/ocspsPhone.scss */
+.foter_fb {
+  display: inline-block;
+  background-image: url("img/facebok.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 551, ../sass/ocspsPhone.scss */
+.foter_vk {
+  display: inline-block;
+  background-image: url("img/vk.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 16px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 561, ../sass/ocspsPhone.scss */
+.foter_inst {
+  display: none;
+  background-image: url("img/instagram.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+  opacity: 0.7;
+}
+
+/* line 570, ../sass/ocspsPhone.scss */
+.foter_youtube {
+  display: inline-block;
+  background-image: url("img/youtube.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 580, ../sass/ocspsPhone.scss */
+.foter_fb:hover {
+  opacity: 1;
+}
+
+/* line 583, ../sass/ocspsPhone.scss */
+.foter_inst:hover {
+  opacity: 1;
+}
+
+/* line 586, ../sass/ocspsPhone.scss */
+.foter_youtube:hover {
+  opacity: 1;
+}
+
+/* line 589, ../sass/ocspsPhone.scss */
+.foter_vk:hover {
+  opacity: 1;
+}
+@media (min-width: 798px) {
+  /* line 653, ../sass/ocspsPhone.scss */
+  .footer_contacts {
+    display: inline-block;
+    margin: 16px 26px 0 5.271186%;
+  }
+}
+@media (min-width: 1112px) {
+ .foter_youtube, .foter_fb, .foter_vk, .foter_inst {
+    width: 20px;
+    height: 20px;
+  }
+}

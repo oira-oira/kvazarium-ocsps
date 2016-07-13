@@ -1,0 +1,552 @@
+/* line 1, ../sass/AboutUs.scss */
+select:active, select:focus {
+  outline: none;
+}
+
+/* line 2, ../sass/AboutUs.scss */
+a:active, a:focus {
+  outline: none;
+}
+
+/* line 3, ../sass/AboutUs.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 4, ../sass/AboutUs.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/AboutUs.scss */
+body {
+  width: 100%;
+}
+
+/* line 10, ../sass/AboutUs.scss */
+.head_info {
+  background-color: black;
+  width: 100%;
+  height: 32px;
+  z-index: 81;
+}
+
+/* line 17, ../sass/AboutUs.scss */
+.contacts {
+  height: 100%;
+  display: inline-block;
+  width: 23.72881355932203%;
+  margin: 0 38.38983050847458% 0 10.76271186440678%;
+  float: left;
+}
+
+/* line 24, ../sass/AboutUs.scss */
+.contact-phone {
+  background: url("img/phon.png") no-repeat;
+  background-position: 7px 0;
+  padding-left: 20px;
+  display: inline-block;
+  font-size: 0.75em;
+  font-family: "Segoe UI";
+  color: #bababa;
+  font-weight: bold;
+  height: 13px;
+  text-align: justifyLeft;
+  margin: 11px 9.28571428571429% 0 0;
+}
+
+/* line 38, ../sass/AboutUs.scss */
+.contact-mail {
+  background-position: 7px 0;
+  padding-left: 25px;
+  background: url("img/mail.png") no-repeat;
+  display: inline-block;
+  font-size: 0.75em;
+  font-family: "Segoe UI";
+  color: #bababa;
+  font-weight: bold;
+  height: 13px;
+  margin: 11px 0 0 0;
+  text-align: justifyLeft;
+}
+
+/* line 52, ../sass/AboutUs.scss */
+.head_social {
+  height: 100%;
+  width: 12.6779661%;
+  margin-right: 30px;
+  display: inline-block;
+  float: left;
+}
+
+/* line 59, ../sass/AboutUs.scss */
+.facebook {
+  background: url("img/facebok.png");
+  margin: 6px 15px 0 0;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+/* line 66, ../sass/AboutUs.scss */
+.vk {
+  background: url("img/vk.png");
+  margin: 6px 15px 0 0;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+/* line 73, ../sass/AboutUs.scss */
+.instagram {
+  background: url("img/instagram.png");
+  margin: 6px 15px 0 0;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+/* line 80, ../sass/AboutUs.scss */
+.youtube {
+  background: url("img/youtube.png");
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+/* line 86, ../sass/AboutUs.scss */
+.lang_panel {
+  background-color: white;
+  display: inline-block;
+  height: 100%;
+  width: 71px;
+}
+
+/* line 92, ../sass/AboutUs.scss */
+.navigation {
+  display: inline-block;
+  width: 100%;
+  height: 64px;
+  background-color: #fe9900;
+}
+
+/* line 98, ../sass/AboutUs.scss */
+.logo {
+  background-image: url("img/logo-header.png");
+  width: 198px;
+  height: 43px;
+  display: inline-block;
+  margin: 10px 5.0847458% 0 9.3220339%;
+  float: left;
+}
+
+/* line 106, ../sass/AboutUs.scss */
+.hidden_list {
+  margin: 26px 0 0 0;
+}
+
+/* line 109, ../sass/AboutUs.scss */
+.about_us {
+  background: url("img/down.png") no-repeat;
+  background-position: 53px 3px;
+  padding-right: 17px;
+  display: inline-block;
+  height: 14px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+  margin-left: 22.6px;
+}
+
+/* line 124, ../sass/AboutUs.scss */
+.second_nav {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+/* line 132, ../sass/AboutUs.scss */
+.training {
+  background: url("img/down.png") no-repeat;
+  background-position: 89px 3px;
+  padding-right: 17px;
+  display: inline-block;
+  height: 14px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+  margin-left: 22.6px;
+}
+
+/* line 146, ../sass/AboutUs.scss */
+.list_menu {
+  display: inline-block;
+  height: 14px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+  margin-left: 22.6px;
+}
+
+/* line 157, ../sass/AboutUs.scss */
+.second_menu {
+  display: none;
+  padding-top: 17px;
+  position: absolute;
+  background-color: #fe9900;
+  width: 127px;
+  height: 124px;
+}
+
+/* line 168, ../sass/AboutUs.scss */
+.second_nav {
+  margin-left: 8px;
+  font-family: "Segoe UI";
+  font-size: 0.875em;
+  font-weight: 400;
+  color: black;
+  line-height: 30px;
+}
+
+/* line 176, ../sass/AboutUs.scss */
+.hidden_list > .about_us:hover > .second_menu {
+  display: block;
+}
+
+/* line 179, ../sass/AboutUs.scss */
+.second_nav:hover {
+  color: white;
+}
+
+/* line 182, ../sass/AboutUs.scss */
+.third_menu {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  width: 180px;
+  height: 67px;
+  background-color: #fe9900;
+}
+
+/* line 190, ../sass/AboutUs.scss */
+.third_nav {
+  text-decoration: none;
+  width: 181px;
+  color: black;
+  margin-left: 6px;
+  font-family: "Segoe UI";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* line 200, ../sass/AboutUs.scss */
+.hidden_list > .training:hover > .third_menu {
+  display: block;
+}
+
+/* line 203, ../sass/AboutUs.scss */
+.third_nav:hover {
+  color: white;
+}
+
+/* line 206, ../sass/AboutUs.scss */
+.four_menu {
+  display: inline-block;
+  height: 14px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+/*________________________________________information____*/
+/* line 224, ../sass/AboutUs.scss */
+.content_about_us {
+  width: 100%;
+  background-color: white;
+}
+
+/* line 228, ../sass/AboutUs.scss */
+.text_about_us {
+  width: 958px;
+  margin: 35px 0 48px 9.40678%;
+  border-bottom: 2px solid #ccc;
+}
+
+/* line 234, ../sass/AboutUs.scss */
+.head_text {
+  height: 19px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+/* line 243, ../sass/AboutUs.scss */
+.text_inform {
+  width: 958px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 39px 0 90px 0;
+}
+
+/* line 253, ../sass/AboutUs.scss */
+.trainer_inform_colum {
+  display: inline-block;
+  margin: 45px 60px 47px 0;
+}
+
+/* line 257, ../sass/AboutUs.scss */
+.photo_trainer {
+  display: block;
+}
+
+/* line 260, ../sass/AboutUs.scss */
+.trainer_inform_colum1 {
+  display: inline-block;
+}
+
+/* line 263, ../sass/AboutUs.scss */
+.trainer_name {
+  margin-top: 18px;
+  height: 16px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 274, ../sass/AboutUs.scss */
+.specialization {
+  margin-top: 13px;
+  height: 16px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/*________________reviews__________*/
+/* line 284, ../sass/AboutUs.scss */
+.block_reviews {
+  width: 705px;
+  margin: 47px 0 90px 9.4067797%;
+}
+
+/* line 288, ../sass/AboutUs.scss */
+.text_coments {
+  width: 705px;
+  border: 2px solid #d7d7d7;
+  margin-top: 20px;
+}
+
+/* line 293, ../sass/AboutUs.scss */
+.name_user {
+  display: block;
+  margin: 21px 0  25px  25px;
+  height: 16px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 303, ../sass/AboutUs.scss */
+.text_revews {
+  width: 635px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 25px;
+}
+
+/*_________share_________________*/
+/* line 315, ../sass/AboutUs.scss */
+.block_share {
+  height: auto;
+  width: auto;
+  margin: 18px 27px 19px 0;
+}
+
+/* line 321, ../sass/AboutUs.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 332, ../sass/AboutUs.scss */
+.share_fb {
+  display: inline-block;
+  background-image: url("img/share_fb.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin: 0 7px 0 0;
+  border-style: none;
+}
+
+/* line 342, ../sass/AboutUs.scss */
+.share_vk {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url("img/share_vk.png");
+  background-repeat: no-repeat;
+  border-style: none;
+}
+
+/*_____________________-footer______*/
+/* line 355, ../sass/AboutUs.scss */
+footer {
+  width: 100%;
+  height: 64px;
+  background-color: #fe9900;
+  display: block;
+  clear: both;
+}
+
+/* line 362, ../sass/AboutUs.scss */
+.logo_copyright {
+  margin: 5px 0 0 104px;
+  display: inline-block;
+  float: left;
+}
+
+/* line 367, ../sass/AboutUs.scss */
+.footer_logo {
+  background-image: url("img/logo_footer.png");
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 40px;
+}
+
+/* line 373, ../sass/AboutUs.scss */
+.copyright {
+  width: 47px;
+  height: 7px;
+  color: lightgrey;
+  font-family: "Segoe UI";
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+/* line 382, ../sass/AboutUs.scss */
+.footer_contacts {
+  display: inline-block;
+  margin: 16px 26px 0 26.2711864%;
+}
+
+/* line 387, ../sass/AboutUs.scss */
+.footer_phone {
+  background: url("img/footer_phone.png");
+  background-repeat: no-repeat;
+  background-position: 1px 2px;
+  padding-left: 14px;
+  margin: 0 33px 0 0;
+  width: 146px;
+  height: 15px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+/* line 401, ../sass/AboutUs.scss */
+.footer_mail {
+  width: 145px;
+  height: 16px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 33px;
+  background-color: white;
+  background: url("img/footer_mail.png");
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  padding-left: 20px;
+}
+
+/* line 415, ../sass/AboutUs.scss */
+.footer_social {
+  display: inline-block;
+  margin: 22px 9.4915254% 0 0;
+  float: right;
+}
+
+/* line 420, ../sass/AboutUs.scss */
+.foter_fb {
+  display: inline-block;
+  background-image: url("img/facebok.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+/* line 428, ../sass/AboutUs.scss */
+.foter_vk {
+  display: inline-block;
+  background-image: url("img/vk.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+/* line 436, ../sass/AboutUs.scss */
+.foter_inst {
+  display: inline-block;
+  background-image: url("img/instagram.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+/* line 444, ../sass/AboutUs.scss */
+.foter_youtube {
+  display: inline-block;
+  background-image: url("img/youtube.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}

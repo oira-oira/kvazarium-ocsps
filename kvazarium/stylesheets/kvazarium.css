@@ -1,0 +1,574 @@
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+body {
+  height: auto;
+  width: 99%;
+  background-image: url(img/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+}
+@media (min-width: 591px) {
+  body {
+    width: 100%;
+  }
+}
+.linea {
+  display: none;
+}
+@media (min-width: 591px) {
+  .linea {
+    border-bottom: 1px solid #eaaa2a;
+    display: block;
+    position: relative;
+    top: 79px;
+    background-color: white;
+    width: 100%;
+  }
+}
+.nav {
+  width: 94.0625%;
+  height: 45px;
+  position: fixed;
+  padding: 10px 3.125% 0 3.125%;
+  background-color: white;
+}
+@media (min-width: 591px) {
+  .nav {
+    background-color: transparent;
+    width: 94.21875%;
+    padding: 0 3.01587301587302% 0 2.85714285714286%;
+    height: 117px;
+    position: relative;
+    margin-bottom:20px;
+  }
+}
+
+.home {
+  background-color: white;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 45px;
+  width: 44px;
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+@media (min-width: 591px) {
+  .home {
+    background-image: url("img/logo_tab.png");
+    background-size: 100%;
+    height: 100px;
+    width: 118px;
+    margin-top: 16px;
+  }
+}
+
+
+.order_a_site {
+  text-decoration: none;
+  background-color: #eaaa2a;
+  margin-left: 9.53947368421053%;
+   height: 44px;
+  width: 152px;
+  
+  border-radius: 22px;
+  float: left;
+}
+@media (min-width: 591px) {
+  
+  .order_a_site {
+    background-image: url(img/order.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 215px;
+    height: 64px;
+    background-color: white;
+    border-radius: 0px;
+    float: right;
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+  }
+}
+
+.text_order_a_site {
+  width: 82.578947%;    /*124px /152px*/
+  height: 15px;
+  color: white;
+  font-family: Open Sans;
+  font-size: 1em;
+  /*  16px  */
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 14px 8.19677419354839% 15px 8.64516129032258%;
+  display: block;
+}
+@media (min-width: 591px) {
+ 
+  .text_order_a_site {
+    color: #eaaa2a;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 1.125em;
+    /* 18 / 16px*/
+    padding: 27px 0 0 21.686275%;
+    width:142px;
+  }
+}
+
+/* _____hidden menu screen 320px, 640px,hower menu___________________*/
+/* line 132, ../sass/kvazarium.scss */
+.menu {
+  background:url(img/list_menu.png);
+
+  text-decoration: none;
+  margin: 7px 0 0 8.14249363867684%;
+  width: 44px;
+  height: 31px;
+  float: right;
+}
+@media (min-width: 591px) {
+
+  .menu {
+    background: none;
+    margin: 34px 0 0 3.30182%;
+    width: 33.66500829187396%;
+    /* 244px / 608px*/
+    height: 14px;
+    float: left;
+  }
+}
+.list_menu {
+  position: relative;
+    width: 293px;
+    height: 48px;
+    margin: 53px 0 0 0;
+    right: 235px;
+}
+@media (min-width: 591px) {
+
+  .list_menu {
+    background: none;
+    width: 100%;
+    float: none;
+    right:0;
+    bottom:57px;
+  }
+}
+
+.hidden_menu {
+ margin: 0 5% 0 100%;
+  float: right;
+  height: 50px;
+  width: 303px;
+  display: inline-block;
+    background-color: #eaaa2a;
+}
+@media (min-width: 591px) {
+  
+.hidden_menu {
+    background: none;
+    width: inherit;
+    margin: 0;
+    height: 14px;
+    float: none;
+    display: block;
+  }
+}
+
+
+.hidden_progects {
+  display: inline-block;
+  padding-left: 6.57894736842105%;
+}
+@media (min-width: 591px) {
+  .hidden_progects {
+    margin-right: 11.02439%;
+    padding: 0;
+  }
+}
+/*@media (min-width: 605px) {
+  .hidden_progects {
+    margin-right: 19.02439024390244%;
+  }
+}*/
+.hidden_contacts {
+  display: inline-block;
+}
+@media (min-width: 591px) {
+  .hidden_contacts {
+    position: relative;
+    left: 8.5%;
+  }
+}
+.hidden_text {
+  text-decoration: none;
+  width: 94px;
+  height: 5.26315789473684%;   /* 16px / 304px */
+  color: white;
+  font-family: Open Sans;
+  font-size: 1.25em;    /*20px /  16px*/
+  font-weight: 300;
+  line-height: 19px;
+  margin-top: 17px;
+  display: inline-block;
+}
+@media (min-width: 591px) {
+  .hidden_text {
+    color: #eaaa2a;
+    font-size: 1.125em;
+    /* 18px / 16px */
+    display: inline;
+    margin: 0;
+  }
+}
+
+.borderbottom {
+  width: 100%;
+}
+@media (min-width: 591px) {
+  .borderbottom {
+    height: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 7px;
+    background-color: #d1d1d1;
+    margin-top: 22px;
+  }
+}
+@media (min-width: 789px) {
+  .borderbottom {
+    margin-top: 17px;
+  }
+}
+
+.close_menu {
+  background-image: url(img/closemenu.png);
+  background-repeat: no-repeat;
+  background-size: 33px;
+  float: right;
+  width: 33px;
+  height: 33px;
+  margin: 8px 14px 0 0;
+}
+@media (min-width: 591px) {
+  .close_menu {
+    display: none;
+  }
+}
+
+/*______progects gallery screen 320px, 640px_____*/
+/*______progects gallery screen , 960px  1080px,1960px
+in css file KvazariumLaptop _____*/
+/* line 274, ../sass/kvazarium.scss */
+.default {
+  height: 119px;
+  margin-bottom: 56px;
+}
+@media (min-width: 591px) {
+  .default {
+    display: none;
+  }
+}
+
+.gallery {
+  width: 293px;
+  /* 289 / 320 */
+  margin: auto;
+  height: auto;
+}
+@media (min-width: 590px) {
+  .gallery {
+    width: 601px;
+  }
+}
+
+.block_gallery {
+  margin-top: 28px;
+  height: 228px;
+  margin-bottom: 56px;
+}
+@media (min-width: 590px) {
+  .block_gallery {
+    width: 601px;
+  }
+}
+
+.down_gallery {
+  margin-bottom: 74px;
+}
+
+.name_gallery {
+  width: 289px;
+  color: #5d5f5b;
+  font-family: Open Sans;
+  font-size: 1.5em;   /*24px  / 16px */
+}
+@media (min-width: 601px) {
+  .name_gallery {
+    width: 589px;
+  }
+}
+
+.box_first {
+  border: 1px solid #e4a80e;
+  width: 289px;
+  height: 226px;
+  float: left;
+  margin-right: 2.49334442595674%;
+  cursor:pointer;
+}
+@media (min-width: 1022px) {
+  .box_first {
+    margin-right: 7%;
+  }
+}
+
+.box_second {
+  display: none;
+}
+@media (min-width: 601px) {
+  
+  .box_second {
+    width: 289px;
+    height: 226px;
+    display: inline-block;
+    border: 1px solid #e4a80e;
+    cursor:pointer;
+  }
+}
+
+
+.box_third {
+  display: none;
+}
+@media (min-width: 1022px) {
+ 
+  .box_third {
+    margin-left: 7%;
+    width: 289px;
+    height: 226px;
+    display: inline-block;
+    border: 1px solid #e4a80e;
+    margin-left: 7%;
+    cursor:pointer;
+  }
+}
+
+
+.first_img {
+  width: 266px;
+  height: 204px;
+  margin: 11px 12px 11px 11px;
+  border: 1px solid #e4a80e;
+}
+
+
+.second_img {
+  width: 266px;
+  height: 204px;
+  margin: 11px 12px 11px 11px;
+  border: 1px solid #e4a80e;
+}
+
+
+.third_img {
+  width: 266px;
+  height: 204px;
+  margin: 11px 12px 11px 11px;
+  border: 1px solid #e4a80e;
+}
+
+/*__________footer copyright__________*/
+
+footer {
+  width: 100%;
+  height: 88px;
+  background-color: #e4a80e;
+  margin-top: 46px;
+  padding: 23px 0 0 0;
+}
+@media (min-width: 591px) {
+
+  footer {
+    height: 66px;
+    padding-top: 18px;
+    margin-top: 74px;
+  }
+}
+
+
+.social_li {
+  background-image: url(img/lid.png);
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 34px;
+  margin-left: 11.875%;
+  display: inline-block;
+}
+@media (min-width: 591px) {
+
+  .social_li {
+    margin-left: 0;
+  }
+}
+
+
+.social_be {
+  background-image: url(img/be.png);
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 34px;
+  margin-left: 11.875%;
+  display: inline-block;
+}
+@media (min-width: 591px) {
+
+  .social_be {
+    margin: 0 0 0 12.6023166023166%;
+  }
+}
+@media (min-width: 787px) {
+ 
+  .social_be {
+    margin: 0 0 0 4.94527%;
+  }
+}
+@media (min-width: 1022px) {
+ 
+  .social_be {
+    margin: 0 0 0 20px;
+  }
+}
+
+/* line 427, ../sass/kvazarium.scss */
+.social_drib {
+  background-image: url(img/drib.png);
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 34px;
+  margin-left: 11.875%;
+  display: inline-block;
+}
+@media (min-width: 591px) {
+  /* line 427, ../sass/kvazarium.scss */
+  .social_drib {
+    margin: 0 0 0 12.6023166023166%;
+  }
+}
+@media (min-width: 787px) {
+  /* line 427, ../sass/kvazarium.scss */
+  .social_drib {
+    margin: 0 0 0 4.94527%;
+  }
+}
+@media (min-width: 1022px) {
+  /* line 427, ../sass/kvazarium.scss */
+  .social_drib {
+    margin: 0 0 0 20px;
+  }
+}
+
+/* line 446, ../sass/kvazarium.scss */
+.social_fb {
+  background-image: url(img/fb.png);
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 34px;
+  margin-left: 11.875%;
+  display: inline-block;
+}
+@media (min-width: 591px) {
+  /* line 446, ../sass/kvazarium.scss */
+  .social_fb {
+    margin: 0 0 0 12.6023166023166%;
+  }
+}
+@media (min-width: 787px) {
+  /* line 446, ../sass/kvazarium.scss */
+  .social_fb {
+    margin: 0 0 0 4.94527%;
+  }
+}
+@media (min-width: 1022px) {
+  /* line 446, ../sass/kvazarium.scss */
+  .social_fb {
+    margin: 0 0 0 20px;
+  }
+}
+
+@media (min-width: 591px) {
+  /* line 467, ../sass/kvazarium.scss */
+  .facebooc_marg {
+    display: inline-block;
+    margin: 0 0 0 12.6023166023166%;
+  }
+}
+
+/* line 481, ../sass/kvazarium.scss */
+.copyright {
+  width: 171px;
+  height: 14px;
+  color: #fefefe;
+  font-family: Open Sans;
+  font-size: 0.75em;
+  /* 12px /16px*/
+  margin: 26px 0 0 24.36708860759494%;
+}
+@media (min-width: 591px) {
+  /* line 481, ../sass/kvazarium.scss */
+  .copyright {
+    margin: 15px 24.5% 26px 1.875%;
+    float: left;
+  }
+}
+@media (min-width: 1157px) {
+  /* line 481, ../sass/kvazarium.scss */
+  .copyright {
+    margin: 15px 24.5% 26px 1.875%;
+  }
+}
+
+/* line 497, ../sass/kvazarium.scss */
+.social_be:hover {
+  background-image: url(img/behance.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 33px;
+}
+
+/* line 503, ../sass/kvazarium.scss */
+.social_drib:hover {
+  background-image: url(img/dribble.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 33px;
+}
+
+/* line 509, ../sass/kvazarium.scss */
+.social_fb:hover {
+  background-image: url(img/facebook.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 33px;
+}
+
+/* line 515, ../sass/kvazarium.scss */
+.social_li:hover {
+  background-image: url(img/linkedin.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 33px;
+}
+
+/* line 521, ../sass/kvazarium.scss */
+.navigate {
+  display: block;
+}

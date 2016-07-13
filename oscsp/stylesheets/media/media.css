@@ -1,0 +1,1225 @@
+/* line 1, ../sass/media.scss */
+select:active, select:focus, select:visited {
+  outline: none;
+}
+
+/* line 2, ../sass/media.scss */
+a:active, a:focus {
+  outline: none;
+}
+
+/* line 3, ../sass/media.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 4, ../sass/media.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/media.scss */
+body {
+  width: 100%;
+}
+.head_info {
+  background-color: black;
+  width: 100%;
+  height: 79px;
+}
+
+/* line 16, ../sass/training.scss */
+.contacts {
+  height: 25px;
+  display: inline-block;
+  width: 303px;
+  margin: 4px 0 0 3.762712%;
+  float: left;
+}
+
+/* line 23, ../sass/training.scss */
+.contact-phone {
+  background: url("img/phon.png") no-repeat;
+  background-position: 7px 0;
+  padding-left: 20px;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Segoe UI";
+  color: #bababa;
+  font-weight: bold;
+  height: 13px;
+  margin: 11px 9.28571428571429% 0 0;
+  width: 109px;
+}
+
+/* line 37, ../sass/training.scss */
+.contact-mail {
+  background-position: 7px 0;
+  padding-left: 25px;
+  background: url("img/mail.png") no-repeat;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Segoe UI";
+  color: #bababa;
+  font-weight: bold;
+  height: 13px;
+  margin: 11px 0 0 0;
+  width: 116px;
+}
+
+/* line 51, ../sass/training.scss */
+.head_social {
+  width: 125px;
+  margin: 12px 16px 0 3%;
+  float: left;
+  display: none;
+}
+
+/* line 58, ../sass/training.scss */
+.facebook {
+  background: url("img/facebok.png");
+  margin: 0px 18px 0 0;
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-size: 100%;
+}
+
+/* line 66, ../sass/training.scss */
+.facebook {
+  background: url("img/facebok.png");
+  margin: 0px 18px 0 0;
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 75, ../sass/training.scss */
+.vk {
+  background: url("img/vk.png");
+  margin: 0px 15px 0 0;
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 84, ../sass/training.scss */
+.instagram {
+  background: url("img/instagram.png");
+  margin: 6px 15px 0 0;
+  width: 20px;
+  height: 20px;
+  display: none;
+  opacity: 0.7;
+}
+
+/* line 92, ../sass/training.scss */
+.youtube {
+  background: url("img/youtube.png");
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 101, ../sass/training.scss */
+.vk:hover {
+  opacity: 1;
+}
+
+/* line 104, ../sass/training.scss */
+.youtube:hover {
+  opacity: 1;
+}
+
+/* line 107, ../sass/training.scss */
+.instagram {
+  opacity: 1;
+}
+
+/* line 110, ../sass/training.scss */
+.facebook:hover {
+  opacity: 1;
+}
+
+/* line 113, ../sass/training.scss */
+.lang_panel {
+  display: inline-block;
+  height: 33px;
+  width: 104px;
+  margin: 6px 11% 0 6%;
+}
+
+/* line 119, ../sass/training.scss */
+.rus {
+  font-size: 1.5em;
+  font-family: "Segoe UI";
+  color: white;
+  width: 72px;
+  height: 13px;
+  line-height: 1.453;
+  margin: 0px 10px 0 0;
+}
+
+/* line 131, ../sass/training.scss */
+.eng {
+  font-size: 1.5em;
+  font-family: "Segoe UI";
+  color: #fe9900;
+  margin: 0 0 0 10px;
+}
+
+/* line 137, ../sass/training.scss */
+.vertical-line {
+  border: 1px solid #fe9900;
+  width: 0px;
+  height: 18px;
+  margin-top: 0px;
+}
+
+/* line 143, ../sass/training.scss */
+.navigation {
+  display: inline-block;
+  width: 100%;
+  height: 68px;
+  background-color: #fe9900;
+}
+
+/* line 149, ../sass/training.scss */
+.logo {
+  background-image: url("img/logo-header.png");
+  width: 198px;
+  height: 43px;
+  display: block;
+  margin: 10px 5.0847458% 0 5.322034%;
+  float: left;
+}
+
+/* line 157, ../sass/training.scss */
+.hidden_list {
+  margin: 68px 0 0 0;
+  height: 171px;
+  position: relative;
+  background-color: #fe9900;
+  width: 100%;
+  display: block;
+}
+
+/* line 165, ../sass/training.scss */
+.about_us {
+  padding-right: 17px;
+  height: 27px;
+  display: block;
+  color: black;
+  font-family: "Segoe UI";
+  line-height: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 22.6px;
+  background-position: 53px 3px;
+}
+
+/* line 185, ../sass/training.scss */
+.about {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 107px;
+  height: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/* line 197, ../sass/training.scss */
+.second_nav {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+/* line 205, ../sass/training.scss */
+.about:hover {
+  color: white;
+}
+
+/* line 208, ../sass/training.scss */
+.training {
+  background-position: 89px 3px;
+  padding-right: 17px;
+  display: block;
+  height: 27px;
+  margin-left: 22.6px;
+}
+
+/* line 216, ../sass/training.scss */
+.training-short {
+  width: 100%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+/* line 225, ../sass/training.scss */
+.training-short:hover {
+  color: white;
+}
+
+/* line 228, ../sass/training.scss */
+.list_menu {
+  display: block;
+  height: 27px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left: 22.6px;
+}
+
+/* line 239, ../sass/training.scss */
+.second_menu {
+  display: none;
+  padding-top: 17px;
+  background-color: #fe9900;
+  width: 127px;
+  height: 124px;
+}
+
+/* line 249, ../sass/training.scss */
+.second_nav {
+  margin-left: 8px;
+  font-family: "Segoe UI";
+  font-size: 0.875em;
+  font-weight: 400;
+  color: black;
+  line-height: 30px;
+}
+
+/* line 258, ../sass/training.scss */
+.second_nav:hover {
+  color: white;
+}
+
+/* line 261, ../sass/training.scss */
+.third_menu {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  width: 180px;
+  height: 67px;
+  background-color: #fe9900;
+}
+
+/* line 269, ../sass/training.scss */
+.third_nav {
+  text-decoration: none;
+  width: 181px;
+  color: black;
+  margin-left: 6px;
+  font-family: "Segoe UI";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* line 281, ../sass/training.scss */
+.third_nav:hover {
+  color: white;
+}
+
+/* line 284, ../sass/training.scss */
+.four_menu {
+  display: inline-block;
+  height: 14px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+/* line 294, ../sass/training.scss */
+.four_menu:hover {
+  color: white;
+}
+
+/*---content--------------------------*/
+/* line 272, ../sass/media.scss */
+.calendar {
+  display: inline-block;
+  margin: 39px 0 0 31.186440999999999%;
+  width: 38.898000000000003%;
+}
+
+/* line 277, ../sass/media.scss */
+.media {
+  font-size: 1.5em;
+  font-family: "Segoe UI";
+  color: black;
+  text-transform: uppercase;
+  line-height: 0.987;
+  text-align: left;
+  -moz-transform: scale(0.99, 1);
+  -webkit-transform: scale(0.99, 1);
+  -ms-transform: scale(0.99, 1);
+  margin: 35px 0 0 9.15254237288136%;
+  display: inline-block;
+}
+
+/* line 290, ../sass/media.scss */
+select {
+  border-style: none;
+  margin: 0 0 0 1.71864406779661%;
+  width: 59px;
+  background: white;
+}
+
+/* line 296, ../sass/media.scss */
+option {
+  display: inline-block;
+}
+
+/*_________________gall____________*/
+/* line 304, ../sass/media.scss */
+.gall {
+  width: 59.91525423728814%;
+  margin: 27px 0 0 9.15254237288136%;
+  height: auto;
+  display: inline-block;
+}
+
+/* line 310, ../sass/media.scss */
+.training_gallery {
+  border-bottom: 2px solid #cccccc;
+  width: 100%;
+  display: inline-block;
+}
+
+/* line 315, ../sass/media.scss */
+.name_mounts {
+  font-size: 0.875em;
+  font-family: "Open Sans";
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.007;
+  text-align: center;
+  -moz-transform: scale(0.97, 1);
+  -webkit-transform: scale(0.97, 1);
+  -ms-transform: scale(0.97, 1);
+  margin: 0 0 28px 0;
+  width: 82px;
+}
+
+/* line 329, ../sass/media.scss */
+.block_gall {
+  display: inline-block;
+  margin: 0 9.47666195190948% 40px 0;
+  float: left;
+}
+
+/* line 335, ../sass/media.scss */
+.viev {
+  width: 191px;
+  margin-bottom: 20px;
+  height: 145px;
+  position: relative;
+  cursor:pointer;
+}
+
+/* line 341, ../sass/media.scss */
+.img_folder {
+  background-image: url("stylesheets/media/hover_img.png");
+  width: 44px;
+  height: 44px;
+  margin: 37px 73px 24px 74px;
+}
+
+/* line 347, ../sass/media.scss */
+.hidden_text {
+  width: 147px;
+  height: 20px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 6px;
+}
+
+/* line 356, ../sass/media.scss */
+.hiden_img:hover {
+  opacity: 0.59;
+}
+
+/* line 359, ../sass/media.scss */
+.mounts_gall {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 363, ../sass/media.scss */
+.nul_gall {
+  margin: 0 0 20px 0;
+}
+
+/* line 366, ../sass/media.scss */
+.name_traning {
+  width: 190px;
+  font-size: 1.125em;
+  font-family: "Segoe UI";
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.316;
+  text-align: left;
+  -moz-transform: scale(0.99, 1);
+  -webkit-transform: scale(0.99, 1);
+  -ms-transform: scale(0.99, 1);
+}
+
+/* line 380, ../sass/media.scss */
+.traning_corp {
+  margin: 52px 0 26px 0;
+  clear: both;
+  width: 100%;
+  display: inline-block;
+}
+
+/* line 386, ../sass/media.scss */
+.corp_name {
+  font-size: 1.5em;
+  font-family: "Segoe UI";
+  color: black;
+  text-transform: uppercase;
+  line-height: 0.987;
+  text-align: left;
+  -moz-transform: scale(0.99, 1);
+  -webkit-transform: scale(0.99, 1);
+  -ms-transform: scale(0.99, 1);
+  margin: 35px 0 35px 0;
+}
+
+/*---------right navbar-----------------*/
+/* line 399, ../sass/media.scss */
+.block_gallery {
+  width: 89.5762712%;
+  margin: 34px 0 34px 9.1525424%;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 406, ../sass/media.scss */
+.name_gallery {
+  display: block;
+  width: 704px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+/* line 418, ../sass/media.scss */
+.gallery {
+  display: inline-block;
+  width: 707px;
+  margin-top: 35px;
+}
+
+/* line 423, ../sass/media.scss */
+.img_gallery {
+  display: inline-block;
+  width: 191px;
+  height: 145px;
+  margin: 0 63px 60px 0;
+  position: relative;
+}
+
+/* line 432, ../sass/media.scss */
+.hiden_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #636466;
+  opacity: 0;
+}
+
+/* line 440, ../sass/media.scss */
+.img_folder {
+  background-image: url("gall_img/full_scren.png");
+  width: 44px;
+  height: 44px;
+  margin: 37px 73px 24px 74px;
+}
+
+/* line 447, ../sass/media.scss */
+.hidden_text {
+  width: 143px;
+  height: 19px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 6px;
+  margin-left: 24px;
+}
+
+/* line 457, ../sass/media.scss */
+.hiden_img:hover {
+  opacity: 0.59;
+}
+
+/* line 460, ../sass/media.scss */
+.last_gallery {
+  display: inline-block;
+  width: 191px;
+  height: 145px;
+  margin: 0 0 60px 0;
+  float: right;
+  position: relative;
+}
+
+/* line 468, ../sass/media.scss */
+.training_img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+/*----------share-----------------------*/
+/* line 478, ../sass/media.scss */
+.block_share {
+  width: 123px;
+  margin: 0 27px 19px 9.15254237288136%;
+  height: 22px;
+  display: inline-block;
+}
+
+/* line 484, ../sass/media.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 495, ../sass/media.scss */
+.foter_fb {
+  display: inline-block;
+  background-image: url("img/facebok.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 505, ../sass/media.scss */
+.foter_vk {
+  display: inline-block;
+  background-image: url("img/vk.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 16px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 515, ../sass/media.scss */
+.foter_inst {
+  display: none;
+  background-image: url("img/instagram.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+  opacity: 0.7;
+}
+
+/* line 524, ../sass/media.scss */
+.foter_youtube {
+  display: inline-block;
+  background-image: url("img/youtube.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 534, ../sass/media.scss */
+.foter_fb:hover {
+  opacity: 1;
+}
+
+/* line 537, ../sass/media.scss */
+.foter_inst:hover {
+  opacity: 1;
+}
+
+/* line 540, ../sass/media.scss */
+.foter_youtube:hover {
+  opacity: 1;
+}
+
+/* line 543, ../sass/media.scss */
+.foter_vk:hover {
+  opacity: 1;
+}
+
+/*--------------------blog________________*/
+/* line 549, ../sass/media.scss */
+.new_training {
+  display: inline-block;
+  float: right;
+  margin: 69px 9.74456% 0 0;
+}
+
+/* line 554, ../sass/media.scss */
+.anh_new_training {
+  background-color: #fe9900;
+  width: 159px;
+  height: 35px;
+  color: #fefefe;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  padding: 10px 31px 11px 31px;
+  display: block;
+  text-align: center;
+}
+
+/* line 569, ../sass/media.scss */
+.list_new_training {
+  width: 197px;
+  border: 1px solid #ccc;
+  padding: 13px 15px 15px 7px;
+  margin-bottom: 5px;
+}
+
+/* line 575, ../sass/media.scss */
+.time_record {
+  margin-bottom: 9px;
+  color: #5a5a5a;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+/* line 582, ../sass/media.scss */
+.head_text_training {
+  color: #fe9900;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 11px;
+}
+
+/* line 589, ../sass/media.scss */
+.inform_traning {
+  width: 201px;
+  font-family: "Segoe UI";
+  font-size: 12px;
+}
+
+/* line 597, ../sass/media.scss */
+footer {
+  width: 100%;
+  height: 64px;
+  background-color: #fe9900;
+  display: block;
+  clear: both;
+}
+
+/* line 517, ../sass/training.scss */
+.logo_copyright {
+  margin: 5px 0 0 4%;
+  display: inline-block;
+  float: left;
+}
+
+/* line 522, ../sass/training.scss */
+.footer_logo {
+  background-image: url("img/logo_footer.png");
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 40px;
+}
+
+/* line 528, ../sass/training.scss */
+.copyright {
+  width: 47px;
+  height: 7px;
+  color: lightgrey;
+  font-family: "Segoe UI";
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+/* line 537, ../sass/training.scss */
+.footer_contacts {
+  margin: 16px 26px 0 26.271186400000001%;
+  display: none;
+}
+
+/* line 542, ../sass/training.scss */
+.footer_phone {
+  background: url("img/footer_phone.png");
+  background-repeat: no-repeat;
+  background-position: 1px 5px;
+  padding-left: 14px;
+  margin: 0 33px 0 0;
+  width: 146px;
+  height: 15px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+/* line 556, ../sass/training.scss */
+.footer_mail {
+  width: 145px;
+  height: 16px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 33px;
+  background-color: white;
+  background: url("img/footer_mail.png");
+  background-repeat: no-repeat;
+  background-position: 0 7px;
+  padding-left: 20px;
+}
+
+/* line 570, ../sass/training.scss */
+.footer_social {
+  display: inline-block;
+  margin: 22px 9.4915254% 0 0;
+  float: right;
+}
+
+/* line 575, ../sass/training.scss */
+.foter_fb {
+  display: inline-block;
+  background-image: url("img/facebok.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 585, ../sass/training.scss */
+.foter_vk {
+  display: inline-block;
+  background-image: url("img/vk.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 16px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 595, ../sass/training.scss */
+.foter_inst {
+  display: none;
+  background-image: url("img/instagram.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+  opacity: 0.7;
+}
+
+/* line 605, ../sass/training.scss */
+.foter_youtube {
+  display: inline-block;
+  background-image: url("img/youtube.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 614, ../sass/training.scss */
+.foter_fb:hover {
+  opacity: 1;
+}
+
+/* line 617, ../sass/training.scss */
+.foter_vk:hover {
+  opacity: 1;
+}
+
+/* line 620, ../sass/training.scss */
+.foter_inst:hover {
+  opacity: 1;
+}
+
+/* line 623, ../sass/training.scss */
+.foter_youtube:hover {
+  opacity: 1;
+}
+
+
+@media (min-width: 820px) {
+  /* line 637, ../sass/training.scss */
+  .footer_contacts {
+    display: inline-block;
+    margin: 16px 26px 0 5.271186%;
+  }
+}
+
+@media (min-width: 1180px) {
+  /* line 644, ../sass/training.scss */
+  .footer_contacts {
+    margin: 16px 26px 0 32.271186%;
+  }
+
+  /* line 647, ../sass/training.scss */
+  .foter_youtube, .foter_fb, .foter_vk, .foter_inst {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 472px) {
+  /* line 655, ../sass/training.scss */
+  .lang_panel {
+    margin: 6px 17px 0 8%;
+    display: inline-block;
+  }
+}
+@media (min-width: 490px) {
+  /* line 662, ../sass/training.scss */
+  .lang_panel {
+    margin: 0 12px 0 6%;
+    display: inline-block;
+  }
+}
+@media (min-width: 477px) {
+  /* line 668, ../sass/training.scss */
+  .lang_panel {
+    margin-top: 2px;
+  }
+
+  /* line 671, ../sass/training.scss */
+  .head_social {
+    display: inline-block;
+  }
+}
+@media (min-width: 900px) {
+  /* line 676, ../sass/training.scss */
+  .head_social {
+    margin: 12px 16px 0 20%;
+  }
+
+  /* line 679, ../sass/training.scss */
+  .lang_panel {
+    margin: 0 10px 0 0;
+  }
+}
+@media (min-width: 900px) {
+  /* line 687, ../sass/training.scss */
+  .head_social {
+    margin: 12px 13% 0 20%;
+  }
+
+  /* line 690, ../sass/training.scss */
+  .lang_panel {
+    margin: 0 0px 0 0px;
+  }
+}
+
+@media (min-width: 1180px) {
+  /* line 697, ../sass/training.scss */
+  body {
+    width: 1180px;
+    margin: auto;
+  }
+
+  /* line 702, ../sass/training.scss */
+  .head_social {
+    width: 101px;
+    height: 22px;
+    margin: 6px 30px 0 455px;
+  }
+
+  /* line 707, ../sass/training.scss */
+  .facebook {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+
+  /* line 712, ../sass/training.scss */
+  .vk {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+
+  /* line 717, ../sass/training.scss */
+  .instagram {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 722, ../sass/training.scss */
+  .youtube {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 726, ../sass/training.scss */
+  .lang_panel {
+    margin: 4 0 0 0;
+    height: 26px;
+  }
+
+  /* line 730, ../sass/training.scss */
+  .rus {
+    font-size: 16px;
+  }
+
+  /* line 736, ../sass/training.scss */
+  .eng {
+    font-size: 16px;
+  }
+
+  /* line 741, ../sass/training.scss */
+  .hidden_list {
+    margin: 26px 0 0 0;
+    display: inline-block;
+    display: inline-block;
+    width: 828px;
+    height: 25px;
+    background-color: transparent;
+  }
+
+  /* line 749, ../sass/training.scss */
+  .hiden_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: #636466;
+    opacity: 0;
+  }
+
+.list_menu {
+    display: inline-block;
+    height: 14px;
+    font-size: 16px;
+    line-height: 13px;
+  }
+
+  /* line 801, ../sass/training.scss */
+  .hidden_list > .training:hover > .third_menu {
+    display: block;
+  }
+
+  /* line 804, ../sass/training.scss */
+  .hidden_list > .about_us:hover > .second_menu {
+    display: block;
+  }
+
+  /* line 807, ../sass/training.scss */
+  .second_menu {
+    position: absolute;
+    left: 1px;
+  }
+
+  /* line 812, ../sass/training.scss */
+  .second_nav:hover {
+    color: white;
+  }
+
+  /* line 816, ../sass/training.scss */
+  .hidden_list > .training:hover > .third_menu {
+    display: block;
+  }
+
+  /* line 819, ../sass/training.scss */
+  .third_nav:hover {
+    color: white;
+  }
+
+  /* line 822, ../sass/training.scss */
+  .four_menu {
+    display: inline-block;
+    height: 14px;
+    color: black;
+    font-family: "Segoe UI";
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+  }
+
+  /* line 832, ../sass/training.scss */
+  .visit_style {
+    color: white;
+  }
+
+  /* line 835, ../sass/training.scss */
+  .four_menu:hover {
+    color: white;
+  }
+
+  /* line 838, ../sass/training.scss */
+  .foter_youtube, .foter_fb, .foter_vk, .foter_inst {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*.block_gall{
+    float: left;
+  }*/
+  /* line 847, ../sass/training.scss */
+  .footer_contacts {
+    margin: 16px 26px 0 32.271186%;
+  }
+  .img_folder {
+    background-image: url("gall_img/full_scren.png");
+    width: 44px;
+    height: 44px;
+    margin: 37px 73px 24px 74px;
+  }
+
+  /* line 764, ../sass/training.scss */
+  .about {
+    font-size: 1em;
+    line-height: 14px;
+    width: 68px;
+  }
+
+  /* line 769, ../sass/training.scss */
+  .about_us {
+    background: url("gall_img/down.png") no-repeat;
+    background-position: 53px 3px;
+    padding-right: 17px;
+    display: inline-block;
+    height: 14px;
+    color: black;
+    width: 50px;
+  }
+
+  /* line 780, ../sass/training.scss */
+  .training {
+    background: url("gall_img/down.png") no-repeat;
+    background-position: 89px 3px;
+    padding-right: 17px;
+    display: inline-block;
+    height: 14px;
+    width: 87px;
+  }
+
+  /* line 789, ../sass/training.scss */
+  .training-short {
+    color: black;
+    font-size: 1em;
+    line-height: 13px;
+  }
+
+}
+@media (min-width: 600px) {
+  /* line 858, ../sass/training.scss */
+  .anh_new_training {
+    width: 233px;
+    height: 41px;
+    line-height: 44px;
+  }
+}
+
+/* line 865, ../sass/training.scss */
+.list_new_training {
+  width: 271px;
+}
+
+@media (min-width: 869px) {
+  /* line 869, ../sass/training.scss */
+  .new_training {
+    float: right;
+    margin: 30px 3% 0 0;
+  }
+
+  /* line 874, ../sass/training.scss */
+  .anh_new_training {
+    width: 201px;
+  }
+
+  /* line 878, ../sass/training.scss */
+  .list_new_training {
+    width: 239px;
+  }
+}
+@media (min-width: 1180px) {
+  /* line 883, ../sass/training.scss */
+  .list_new_training {
+    width: 221px;
+  }
+
+  /* line 886, ../sass/training.scss */
+  .time_record {
+    font-size: 12px;
+  }
+
+  /* line 889, ../sass/training.scss */
+  .head_text_training {
+    font-size: 13px;
+  }
+
+  /* line 892, ../sass/training.scss */
+  .inform_traning {
+    font-size: 12px;
+  }
+
+  /* line 895, ../sass/training.scss */
+  .anh_new_training {
+    width: 184px;
+    font-size: 12px;
+    height: 35px;
+    line-height: 36px;
+  }
+}
+@media (min-width: 1180px) {
+  /* line 903, ../sass/training.scss */
+  .contaner {
+    margin-top: 66px;
+  }
+}

@@ -1,0 +1,360 @@
+/* line 1, ../sass/AboutUs1.scss */
+select:active, select:focus {
+  outline: none;
+}
+
+/* line 2, ../sass/AboutUs1.scss */
+a:active, a:focus {
+  outline: none;
+}
+
+/* line 3, ../sass/AboutUs1.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 4, ../sass/AboutUs1.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/AboutUs1.scss */
+body {
+  width: 100%;
+}
+
+/* line 10, ../sass/AboutUs1.scss */
+
+
+/*________________________________________information____*/
+/* line 296, ../sass/AboutUs1.scss */
+.content_about_us {
+  width: 100%;
+  background-color: white;
+}
+
+/* line 300, ../sass/AboutUs1.scss */
+.text_about_us {
+  width: 98%;
+  margin: 35px 0 48px 1.40678%;
+  border-bottom: 2px solid #ccc;
+}
+
+/* line 306, ../sass/AboutUs1.scss */
+.head_text {
+  height: 25px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+/* line 315, ../sass/AboutUs1.scss */
+.text_inform {
+  width: 97%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 39px 0 19px  0;
+}
+
+/* line 325, ../sass/AboutUs1.scss */
+.trainer_inform_colum {
+  display: block;
+  margin: 26px 0 47px 0;
+}
+
+/* line 329, ../sass/AboutUs1.scss */
+.photo_trainer {
+  display: block;
+  width: 308px;
+  height: auto;
+}
+
+/* line 334, ../sass/AboutUs1.scss */
+.trainer_name {
+  margin-top: 18px;
+  height: 16px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 345, ../sass/AboutUs1.scss */
+.specialization {
+  margin-top: 13px;
+  height: 16px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 354, ../sass/AboutUs1.scss */
+.clients {
+  width: 100%;
+  height: auto;
+}
+
+/*________________reviews__________*/
+/* line 359, ../sass/AboutUs1.scss */
+.block_reviews {
+  width: 99%;
+  margin: 47px 1% 90px 1%;
+}
+
+/* line 363, ../sass/AboutUs1.scss */
+.text_coments {
+  width: 98%;
+  border: 2px solid #d7d7d7;
+  margin-top: 20px;
+}
+
+/* line 368, ../sass/AboutUs1.scss */
+.name_user {
+  display: block;
+  margin: 21px 0  25px  25px;
+  height: 17px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+/* line 378, ../sass/AboutUs1.scss */
+.text_revews {
+  width: 97%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 5px;
+}
+
+/*_________share_________________*/
+/* line 390, ../sass/AboutUs1.scss */
+.block_share {
+  height: auto;
+  width: auto;
+  margin: 18px 27px 19px 0;
+}
+
+/* line 396, ../sass/AboutUs1.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+  height: 17px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+  bottom: 4px;
+}
+
+/* line 409, ../sass/AboutUs1.scss */
+.share_fb {
+  display: inline-block;
+  opacity: 0.7;
+  margin: 0 0 0 7px;
+}
+
+/* line 416, ../sass/AboutUs1.scss */
+.share_vk {
+  display: inline-block;
+  border-style: none;
+  opacity: 0.7;
+}
+
+/* line 421, ../sass/AboutUs1.scss */
+.share_fb:hover {
+  opacity: 1;
+}
+
+/* line 424, ../sass/AboutUs1.scss */
+.share_vk:hover {
+  opacity: 1;
+}
+
+/*_____________________-footer______*/
+/* line 430, ../sass/AboutUs1.scss */
+
+
+
+
+
+
+@media (min-width: 407px) {
+  /* line 603, ../sass/AboutUs1.scss */
+  .trainer_inform_colum {
+    display: inline-block;
+  }
+
+  /* line 606, ../sass/AboutUs1.scss */
+  .photo_trainer {
+    width: 191px;
+    height: auto;
+    margin: 26px 1.61% 47px 0;
+  }
+
+  /* line 611, ../sass/AboutUs1.scss */
+  .img_float {
+    float: left;
+    margin: 0;
+    display: block;
+  }
+}
+@media (min-width: 589px) {
+  /* line 618, ../sass/AboutUs1.scss */
+  .trainer_inform_colum {
+    margin: 26px 0 47px 0;
+  }
+
+  /* line 621, ../sass/AboutUs1.scss */
+  .img_float {
+    float: none;
+    display: inline-block;
+  }
+}
+@media (min-width: 709px) {
+  /* line 627, ../sass/AboutUs1.scss */
+  .user_coments {
+    width: 701px;
+    margin: auto;
+  }
+}
+@media (min-width: 806px) {
+  /* line 634, ../sass/AboutUs1.scss */
+  .head_text {
+    margin: 0 0 0 15px;
+  }
+}
+@media (min-width: 841px) {
+  /* line 639, ../sass/AboutUs1.scss */
+  .text_inform {
+    width: 800px;
+  }
+}
+@media (min-width: 820px) {
+  /* line 644, ../sass/AboutUs1.scss */
+  .user_coments {
+    margin: 0 0 0 110px;
+  }
+}
+@media (min-width: 966px) {
+  /* line 649, ../sass/AboutUs1.scss */
+  .text_about_us {
+    width: 956px;
+  }
+}
+@media (min-width: 1180px) {
+  /* line 659, ../sass/AboutUs1.scss */
+  body {
+    width: 1180px;
+    margin: auto;
+  }
+
+  /* line 663, ../sass/AboutUs1.scss */
+
+  /* line 726, ../sass/AboutUs1.scss */
+  .visit_style {
+    color: white;
+  }
+
+  /* line 730, ../sass/AboutUs1.scss */
+  .training {
+    background: url("gall_img/down.png") no-repeat;
+    background-position: 89px 3px;
+    padding-right: 17px;
+    display: inline-block;
+    height: 14px;
+    width: 87px;
+  }
+
+  /* line 739, ../sass/AboutUs1.scss */
+  .training-short {
+    color: black;
+    font-size: 1em;
+    line-height: 13px;
+  }
+
+  /* line 744, ../sass/AboutUs1.scss */
+  .list_menu {
+    display: inline-block;
+    height: 14px;
+    font-size: 16px;
+    line-height: 13px;
+  }
+
+ 
+
+  /*------cont-------------*/
+  /* line 789, ../sass/AboutUs1.scss */
+  .text_about_us {
+    width: 1038px;
+    margin: 35px 0 48px 9.40678%;
+  }
+
+  /* line 793, ../sass/AboutUs1.scss */
+  .text_inform {
+    margin: 39px 0 90px  0;
+  }
+
+  /* line 796, ../sass/AboutUs1.scss */
+  .trainer_inform_colum {
+    margin: 45px 60px 47px 0;
+  }
+
+  /* line 799, ../sass/AboutUs1.scss */
+  .photo_trainer {
+    width: 191px;
+    height: auto;
+  }
+
+  /* line 803, ../sass/AboutUs1.scss */
+  .block_reviews {
+    margin: 47px 0 90px 9.4067797%;
+  }
+
+  /* line 806, ../sass/AboutUs1.scss */
+  .user_coments {
+    margin: 0;
+  }
+
+  /* line 809, ../sass/AboutUs1.scss */
+  .text_coments {
+    width: 705px;
+  }
+
+  /* line 812, ../sass/AboutUs1.scss */
+  .text_revews {
+    margin: 25px;
+  }
+
+  /* line 815, ../sass/AboutUs1.scss */
+  .share_fb {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 819, ../sass/AboutUs1.scss */
+  .share_vk {
+    width: 20px;
+    height: 20px;
+  }
+
+ 
+}

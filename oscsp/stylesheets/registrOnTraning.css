@@ -1,0 +1,529 @@
+/* line 1, ../sass/training_more.scss */
+select:active, select:focus, select:visited {
+  outline: none;
+}
+
+/* line 2, ../sass/training_more.scss */
+a:active, a:focus {
+  outline: none;
+}
+
+/* line 3, ../sass/training_more.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 4, ../sass/training_more.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/training_more.scss */
+button:active {
+  outline: none;
+}
+
+/* line 8, ../sass/training_more.scss */
+body {
+  width: 100%;
+}
+
+/* line 11, ../sass/training_more.scss */
+
+
+
+.container {
+  width: 99%;
+}
+
+/* line 366, ../sass/training_more.scss */
+.information {
+  width: 61.5254237%;
+  margin: 35px 0 0 2.4067797%;
+  display: inline-block;
+  min-width: 311px;
+}
+
+/* line 372, ../sass/training_more.scss */
+.name_information {
+  width: 100%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+/* line 382, ../sass/training_more.scss */
+.previev {
+  width: 99%;
+  height: auto;
+  margin-bottom: 41px;
+  min-width: 306px;
+}
+
+/* line 388, ../sass/training_more.scss */
+.block_text {
+  width: 100%;
+  border-bottom: 2px solid #d7d7d7;
+}
+
+/* line 392, ../sass/training_more.scss */
+.descr {
+  width: 100%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 39px;
+}
+
+/* line 401, ../sass/training_more.scss */
+.media {
+  margin: 27px 0 0 1.3389831%;
+  display: inline-block;
+}
+
+/* line 405, ../sass/training_more.scss */
+.name_gall {
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 415, ../sass/training_more.scss */
+.left {
+  width: 27px;
+  height: 57px;
+  background-image: url("training_more/left.png");
+  display: inline-block;
+  margin: 0 0 67px 0;
+}
+
+/* line 422, ../sass/training_more.scss */
+.right {
+  width: 27px;
+  height: 57px;
+  background: url("training_more/right.png");
+  margin: 0 0 67px 0;
+  display: inline-block;
+}
+
+/* line 429, ../sass/training_more.scss */
+.gall_photo {
+  display: inline-block;
+}
+
+/* line 432, ../sass/training_more.scss */
+.photo1 {
+  width: 191px;
+  height: 145px;
+  margin: 23px;
+}
+
+/* line 437, ../sass/training_more.scss */
+.photo2 {
+  display: none;
+}
+
+/* line 440, ../sass/training_more.scss */
+.photo3 {
+  display: none;
+}
+
+/* line 443, ../sass/training_more.scss */
+.block_video {
+  width: 64.525424000000001%;
+  margin: 0 0 46px 4.5%;
+  border-bottom: 2px solid #d7d7d7;
+  padding-bottom: 27px;
+  display: inline-block;
+  border-top: 2px solid #d7d7d7;
+}
+
+/* line 451, ../sass/training_more.scss */
+.name_video_gal {
+  margin: 40px 0 19px 0;
+  width: 75px;
+  height: 23px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+/* line 462, ../sass/training_more.scss */
+.video {
+  width: 191px;
+  height: 145px;
+  margin: 23px;
+  display: inline-block;
+}
+
+/* line 468, ../sass/training_more.scss */
+.training_video {
+  float: right;
+  width: 100%;
+  position: relative;
+}
+
+/* line 473, ../sass/training_more.scss */
+.prevev_video {
+  width: 191px;
+  height: 145px;
+}
+
+/* line 478, ../sass/training_more.scss */
+.video_play {
+  position: absolute;
+  background: url("training_more/play_video.png");
+  width: 52px;
+  z-index: 1;
+  top: 47px;
+  height: 52px;
+  left: 69px;
+  opacity: 0.7;
+}
+
+/* line 488, ../sass/training_more.scss */
+.registration {
+  margin: 0 0 0 1.3220339%;
+}
+
+/* line 491, ../sass/training_more.scss */
+.block_registr {
+  margin: 40px 0 0 6px;
+  display: inline-block;
+}
+
+/* line 495, ../sass/training_more.scss */
+.str_registration {
+  margin: 0 0  25px 0;
+  padding: 0;
+  display: block;
+}
+
+/* line 499, ../sass/training_more.scss */
+.str_name {
+  width: 127px;
+  height: 100%;
+  background-color: #ccc;
+}
+
+/* line 506, ../sass/training_more.scss */
+.str_input {
+  width: 204px;
+  height: 35px;
+  /* border: 1px solid #cccccc; */
+}
+
+/* line 512, ../sass/training_more.scss */
+.name_field {
+  margin: 9px 0 0 10px;
+  position: relative;
+  top: 8px;
+}
+
+/* line 517, ../sass/training_more.scss */
+.asterisc {
+  position: relative;
+  top: 7px;
+}
+
+/* line 521, ../sass/training_more.scss */
+.field_input {
+  height: 100%;
+  width: 94%;
+  background-color: white;
+  border: 1px solid #cccccc;
+}
+
+/* line 527, ../sass/training_more.scss */
+.text_send {
+  width: 76px;
+  height: 12px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 538, ../sass/training_more.scss */
+.send {
+  width: 223px;
+  height: 35px;
+  background-color: #fe9900;
+  margin-bottom: 51px;
+}
+
+/*----------share-----------------------*/
+/* line 553, ../sass/training_more.scss */
+.block_share {
+  width: 150px;
+  margin: 0 27px 19px 9.15254237288136%;
+  height: 22px;
+  display: block;
+}
+
+/* line 559, ../sass/training_more.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 570, ../sass/training_more.scss */
+.share_fb {
+  display: inline-block;
+  background-color: white;
+}
+
+/* line 580, ../sass/training_more.scss */
+.share_vk {
+  display: inline-block;
+}
+.share_fb, .share_vk{
+margin-left: 7px;
+}
+
+/*--------------------blog________________*/
+/* line 592, ../sass/training_more.scss */
+.new_training {
+  margin: 69px  0 0 4%;
+}
+
+/* line 597, ../sass/training_more.scss */
+.anh_new_training {
+  background-color: #fe9900;
+  width: 222px;
+  height: 35px;
+  color: #fefefe;
+  font-family: "Segoe UI";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  padding: 10px 31px 11px 31px;
+  display: block;
+  text-align: center;
+}
+
+/* line 612, ../sass/training_more.scss */
+.list_new_training {
+  width: 260px;
+  border: 1px solid #ccc;
+  padding: 13px 15px 15px 7px;
+  margin-bottom: 5px;
+}
+
+/* line 618, ../sass/training_more.scss */
+.time_record {
+  margin-bottom: 9px;
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+/* line 625, ../sass/training_more.scss */
+.head_text_training {
+  color: #fe9900;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 11px;
+}
+
+/* line 632, ../sass/training_more.scss */
+.inform_traning {
+  width: 260px;
+  font-family: "Segoe UI";
+  font-size: 14px;
+}
+
+/* line 642, ../sass/training_more.scss */
+
+
+
+/*--------blog______________*/
+@media (min-width: 1173px) {
+  /* line 778, ../sass/training_more.scss */
+  .previev {
+    width: 723px;
+    height: 296px;
+    margin-bottom: 41px;
+  }
+
+  /* line 783, ../sass/training_more.scss */
+  .new_training {
+    display: inline-block;
+    float: right;
+    margin: 69px 0 0 5%;
+  }
+
+  /* line 788, ../sass/training_more.scss */
+  .anh_new_training {
+    background-color: #fe9900;
+    width: 164px;
+    height: 35px;
+    color: #fefefe;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    padding: 10px 31px 11px 31px;
+    display: block;
+    text-align: center;
+  }
+
+  /* line 803, ../sass/training_more.scss */
+  .list_new_training {
+    width: 202px;
+    border: 1px solid #ccc;
+    padding: 13px 15px 15px 7px;
+    margin-bottom: 5px;
+  }
+
+  /* line 809, ../sass/training_more.scss */
+  .time_record {
+    margin-bottom: 9px;
+    color: #5a5a5a;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  /* line 816, ../sass/training_more.scss */
+  .head_text_training {
+    color: #fe9900;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 11px;
+  }
+
+  /* line 823, ../sass/training_more.scss */
+  .inform_traning {
+    width: 201px;
+    font-family: "Segoe UI";
+    font-size: 12px;
+  }
+}
+/*photo-------------gall-------*/
+@media (min-width: 600px) {
+  /* line 834, ../sass/training_more.scss */
+  .photo2 {
+    width: 191px;
+    height: 145px;
+    margin: 23px;
+    display: inline-block;
+  }
+
+  /* line 840, ../sass/training_more.scss */
+  .left {
+    margin: 0 22px 67px 0;
+  }
+
+  /* line 843, ../sass/training_more.scss */
+  .right {
+    margin: 0 0 67px 22px;
+  }
+
+  /* line 846, ../sass/training_more.scss */
+  .block_video {
+    width: 64.525424000000001%;
+  }
+
+  /* line 849, ../sass/training_more.scss */
+  .container {
+    width: 100%;
+  }
+
+  /* line 852, ../sass/training_more.scss */
+  .information {
+    margin: 35px 0 0 9.4067797%;
+  }
+}
+@media (min-width: 912px) {
+  /* line 857, ../sass/training_more.scss */
+  .media {
+    margin: 27px 0 0 1.338983%;
+    display: inline-block;
+  }
+}
+@media (min-width: 985px) {
+  /* line 863, ../sass/training_more.scss */
+  .media {
+    margin: 27px 0 0 5.3389831%;
+  }
+}
+@media (min-width: 842px) {
+  /* line 868, ../sass/training_more.scss */
+  .photo3 {
+    width: 191px;
+    height: 145px;
+    margin: 23px;
+    display: inline-block;
+  }
+}
+/*_________top________________naw*/
+
+@media (min-width: 1180px) {
+  /* line 925, ../sass/training_more.scss */
+  body {
+    width: 1180px;
+    margin: auto;
+  }
+
+ 
+  /* line 1063, ../sass/training_more.scss */
+  .visit_style {
+    color: white;
+  }
+
+  /* line 1066, ../sass/training_more.scss */
+  
+/*_______registration___________*/
+@media (min-width: 784px) {
+  /* line 1081, ../sass/training_more.scss */
+  .str_name {
+    width: 197px;
+    height: 100%;
+  }
+
+  /* line 1085, ../sass/training_more.scss */
+  .field_input {
+    width: 100%;
+  }
+
+  /* line 1088, ../sass/training_more.scss */
+  .registration {
+    margin: 0 0 0 9.3220339%;
+  }
+
+  /* line 1091, ../sass/training_more.scss */
+  .str_input {
+    width: 501px;
+  }
+}

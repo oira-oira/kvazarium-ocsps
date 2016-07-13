@@ -1,0 +1,356 @@
+/* line 1, ../sass/gallery.scss */
+select:active, select:focus {
+  outline: none;
+}
+
+/* line 2, ../sass/gallery.scss */
+a:active, a:focus {
+  outline: none;
+}
+
+/* line 3, ../sass/gallery.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 4, ../sass/gallery.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/gallery.scss */
+body {
+  width: 100%;
+  max-width: 1180px;
+  margin: auto;
+}
+
+/* line 12, ../sass/gallery.scss */
+
+/*__+______________gallery__________*/
+/* line 286, ../sass/gallery.scss */
+.block_gallery {
+  width: 99%;
+  margin: 34px 0 34px 1.1525424%;
+  display: inline-block;
+}
+
+/* line 293, ../sass/gallery.scss */
+.name_gallery {
+  display: inline-block;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+/* line 305, ../sass/gallery.scss */
+.gallery {
+  display: block;
+  width: 198px;
+  margin-top: 60px;
+}
+
+/* line 310, ../sass/gallery.scss */
+.img_gallery {
+  display: block;
+  width: 191px;
+  height: 145px;
+  margin: 0 0.91089108910891% 60px 0;
+  position: relative;
+  z-index: 4;
+}
+
+/* line 320, ../sass/gallery.scss */
+.hiden_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: #636466;
+  opacity: 0;
+}
+
+/* line 328, ../sass/gallery.scss */
+.img_folder {
+  background-image: url("gall_img/full_scren.png");
+  width: 44px;
+  height: 44px;
+  margin: 37px 73px 24px 74px;
+}
+
+/* line 335, ../sass/gallery.scss */
+.hidden_text {
+  width: 154px;
+  height: 19px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 6px;
+  margin-left: 24px;
+}
+
+/* line 345, ../sass/gallery.scss */
+.hiden_img:hover {
+  opacity: 0.59;
+}
+
+/* line 348, ../sass/gallery.scss */
+.last_gallery {
+  display: block;
+  width: 191px;
+  height: 145px;
+  margin: 0 0 60px 0;
+  position: relative;
+}
+
+/* line 356, ../sass/gallery.scss */
+.training_img {
+  width: 191px;
+  height: 145px;
+  display: inline-block;
+}
+
+/*___________blog________*/
+/* line 366, ../sass/gallery.scss */
+.new_training {
+  display: block;
+  margin: 30px 0 0 0;
+}
+
+/* line 370, ../sass/gallery.scss */
+.anh_new_training {
+  background-color: #fe9900;
+  width: 204px;
+  height: 51px;
+  color: #fefefe;
+  font-family: "Segoe UI";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 52px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 10px 31px 11px 31px;
+  display: block;
+  text-align: center;
+}
+
+/* line 385, ../sass/gallery.scss */
+.list_new_training {
+  width: 242px;
+  border: 1px solid #ccc;
+  padding: 13px 15px 15px 7px;
+  margin-bottom: 5px;
+}
+
+/* line 392, ../sass/gallery.scss */
+.time_record {
+  margin-bottom: 9px;
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  height: 16px;
+}
+
+/* line 400, ../sass/gallery.scss */
+.head_text_training {
+  color: #fe9900;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 11px;
+}
+
+/* line 407, ../sass/gallery.scss */
+.inform_traning {
+  width: 102%;
+  font-family: "Segoe UI";
+  font-size: 18px;
+}
+
+/*-----popup----------------*/
+/* line 418, ../sass/gallery.scss */
+.popup {
+  display: none;
+}
+
+/*_________block_share___________________*/
+/* line 424, ../sass/gallery.scss */
+.block_share {
+  height: auto;
+  width: 192px;
+  margin: 40px 27px 19px 0;
+  display: inline-block;
+}
+
+/* line 431, ../sass/gallery.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 7px;
+}
+
+/* line 443, ../sass/gallery.scss */
+.share_fb {
+  display: inline-block;
+  opacity: 0.7;
+  margin: 0 0 0 7px;
+}
+
+/* line 450, ../sass/gallery.scss */
+.share_vk {
+  display: inline-block;
+  border-style: none;
+  opacity: 0.7;
+}
+
+/* line 455, ../sass/gallery.scss */
+.share_fb:hover {
+  opacity: 1;
+}
+
+/* line 458, ../sass/gallery.scss */
+.share_vk:hover {
+  opacity: 1;
+}
+
+
+/*___________blog________blog*/
+@media (min-width: 600px) {
+  /* line 601, ../sass/gallery.scss */
+  .anh_new_training {
+    height: 41px;
+    line-height: 44px;
+  }
+}
+
+@media (min-width: 869px) {
+  /* line 608, ../sass/gallery.scss */
+  .new_training {
+    margin: 30px 3% 0 0;
+  }
+
+  /* line 612, ../sass/gallery.scss */
+  .anh_new_training {
+    width: 201px;
+  }
+
+  /* line 616, ../sass/gallery.scss */
+  .list_new_training {
+    width: 239px;
+  }
+}
+@media (min-width: 1180px) {
+  /* line 621, ../sass/gallery.scss */
+  .inform_traning {
+    font-size: 12px;
+  }
+
+  /* line 624, ../sass/gallery.scss */
+  .head_text_training {
+    font-size: 13px;
+  }
+}
+/*---------------share_________-*/
+@media (min-width: 404px) {
+  /* line 631, ../sass/gallery.scss */
+  .img_gallery {
+    display: inline-block;
+    float: left;
+  }
+
+  /* line 635, ../sass/gallery.scss */
+  .last_gallery {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  /* line 640, ../sass/gallery.scss */
+  .gallery {
+    width: 393px;
+  }
+
+  /* line 643, ../sass/gallery.scss */
+  .block_share {
+    width: 300px;
+  }
+}
+@media (min-width: 603px) {
+  /* line 649, ../sass/gallery.scss */
+  .gallery {
+    width: 596px;
+  }
+}
+
+
+@media (min-width: 714) {
+  /* line 666, ../sass/gallery.scss */
+  .gallery {
+    width: 707px;
+  }
+
+  /* line 669, ../sass/gallery.scss */
+  .img_gallery {
+    margin: 0 8.91089108910891% 60px 0;
+  }
+}
+
+@media (min-width: 797px) {
+  /* line 683, ../sass/gallery.scss */
+  .block_gallery {
+    width: 91%;
+    margin: 34px 0 34px 8.91089108910891%;
+  }
+
+  /* line 687, ../sass/gallery.scss */
+  .img_gallery {
+    margin: 0 8.91089108910891% 60px 0;
+  }
+
+  /* line 690, ../sass/gallery.scss */
+  .gallery {
+    width: 707px;
+  }
+}
+
+
+@media (min-width: 1130px) {
+  /* line 716, ../sass/gallery.scss */
+  .new_training {
+    display: inline-block;
+    float: right;
+  }
+
+  /* line 720, ../sass/gallery.scss */
+  .gallery {
+    display: inline-block;
+  }
+}
+@media (min-width: 1180px) {
+  /* line 731, ../sass/gallery.scss */
+  body {
+    width: 1180px;
+    margin: auto;
+  }
+
+ 
+
+  /* line 850, ../sass/gallery.scss */
+  .visit_style {
+    color: white;
+  }
+
+ 
+}

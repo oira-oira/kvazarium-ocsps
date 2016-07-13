@@ -1,0 +1,190 @@
+/* line 1, ../sass/kvazariumpopup.scss */
+.popup {
+  display: none;
+  position: absolute;
+  top: -17px;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+@media (min-width: 591px) {
+  /* line 1, ../sass/kvazariumpopup.scss */
+  .popup {
+    top: 78px;
+  }
+}
+@media (min-width: 789px) {
+  /* line 1, ../sass/kvazariumpopup.scss */
+  .popup {
+    top: 191px;
+  }
+}
+@media (min-width: 1192px) {
+  /* line 1, ../sass/kvazariumpopup.scss */
+  .popup {
+    top: 97px;
+    padding-bottom: 107px;
+  }
+}
+
+/* line 23, ../sass/kvazariumpopup.scss */
+.pop_up_butt_close {
+  background-image: url("img/gray_bottom.png");
+  width: 17px;
+  height: 17px;
+  margin: 0 0 0 92.5%;
+  position: relative;
+  top: 34px;
+  z-index: 1;
+}
+@media (min-width: 591px) {
+  /* line 23, ../sass/kvazariumpopup.scss */
+  .pop_up_butt_close {
+    background-image: url("img/white_butt.png");
+    margin-bottom: 13px;
+    top: 0;
+    bottom: 0;
+    width: 33px;
+    height: 33px;
+  }
+}
+@media (min-width: 1192px) {
+  /* line 23, ../sass/kvazariumpopup.scss */
+  .pop_up_butt_close {
+    margin: 0 0 13px 96%;
+  }
+}
+
+/* line 45, ../sass/kvazariumpopup.scss */
+.pop_up_box {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  -ms-background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 57, ../sass/kvazariumpopup.scss */
+.pop_up_gal {
+  width: 100%;
+  position: relative;
+  padding: 40px;
+  background-color: #fafafa;
+}
+@media (min-width: 591px) {
+  /* line 57, ../sass/kvazariumpopup.scss */
+  .pop_up_gal {
+    padding: 37px 0 0 0;
+    max-width: 960px;
+    margin: auto;
+  }
+}
+
+/* line 71, ../sass/kvazariumpopup.scss */
+.pop_up_name {
+  display: block;
+  font-size: 1.25em;
+  font-family: Open Sans;
+  color: #5d5f5b;
+  line-height: 1.341;
+  width: 80%;
+  margin: 0px 0 0 3.125%;
+}
+.trademark{
+    font-size: 0.5em;
+    margin: 0px 0 0px 4px;
+    position: relative;
+    bottom: 9px;
+}
+@media (min-width: 591px) {
+  /* line 71, ../sass/kvazariumpopup.scss */
+  .pop_up_name {
+    width: 452px;
+    color: #5d5f5b;
+    font-family: Open Sans;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 0 0 0 3.4375%;
+  }
+}
+
+/* line 89, ../sass/kvazariumpopup.scss */
+.pop_up_text {
+  font-size: 1.125em;
+  font-family: Open Sans;
+  color: #5d5f5b;
+  line-height: 1.788;
+  text-align: left;
+  margin: 19px 3.125% 61px 3.125%;
+}
+@media (min-width: 591px) {
+  /* line 89, ../sass/kvazariumpopup.scss */
+  .pop_up_text {
+    width: 493px;
+    color: #5d5f5b;
+    font-family: Open Sans;
+    font-size: 1.125em;
+    font-weight: 300;
+    line-height: 27px;
+    margin: 17px 0 61px 3.4375%;
+  }
+}
+
+/* line 107, ../sass/kvazariumpopup.scss */
+.pop_up_img {
+  width: 100%;
+}
+
+/* line 111, ../sass/kvazariumpopup.scss */
+.up_list {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #969696;
+  display: block;
+  margin: 13px 0 0 49%;
+  text-decoration: none;
+  position: relative;
+  top: 3px;
+}
+@media (min-width: 591px) {
+  /* line 111, ../sass/kvazariumpopup.scss */
+  .up_list {
+    border: none;
+    background-image: url("img/up_arow.png");
+    width: 29px;
+    height: 18px;
+    top:29px;
+  }
+}
+@media (min-width: 1192px) {
+  /* line 111, ../sass/kvazariumpopup.scss */
+  .up_list {
+    margin: 20px 0 0 49%;
+  }
+}
+
+/* line 132, ../sass/kvazariumpopup.scss */
+.up_text {
+  position: relative;
+  right: 32px;
+  color: #969696;
+  font-family: Open Sans;
+  font-size: 1.875em;
+  font-weight: 300;
+  line-height: 55px;
+}
+@media (min-width: 591px) {
+  /* line 132, ../sass/kvazariumpopup.scss */
+  .up_text {
+    color: white;
+    font-family: Open Sans;
+    font-weight: 300;
+    right: 20px;
+  }
+}

@@ -1,0 +1,350 @@
+/* line 1, ../sass/ocspsPhone.scss */
+select:active, select:focus, select:visited {
+  outline: none;
+}
+
+/* line 7, ../sass/ocspsPhone.scss */
+a:active, a:focus, a:visited {
+  outline: none;
+}
+
+/* line 9, ../sass/ocspsPhone.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 10, ../sass/ocspsPhone.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 13, ../sass/ocspsPhone.scss */
+body {
+  width: 100%;
+}
+
+/* line 16, ../sass/ocspsPhone.scss */
+
+
+/*___slider, text content___*/
+/* line 304, ../sass/ocspsPhone.scss */
+
+/*__text content___*/
+/* line 319, ../sass/ocspsPhone.scss */
+.list_news {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+}
+
+/* line 324, ../sass/ocspsPhone.scss */
+.list_news:after {
+  content: '';
+  display: block;
+}
+
+/* line 328, ../sass/ocspsPhone.scss */
+.news_block {
+  width: 98%;
+  display: inline-block;
+  margin: 30px 0 7px 7px;
+}
+@media (min-width: 600px) {
+  /* line 328, ../sass/ocspsPhone.scss */
+  .news_block {
+    width: 59.9152542%;
+  }
+}
+
+/* line 336, ../sass/ocspsPhone.scss */
+.news {
+  width: 91%;
+  border-bottom: 1px solid #d7d7d7;
+  margin: 24px auto;
+}
+
+/* line 341, ../sass/ocspsPhone.scss */
+time {
+  height: 12px;
+  margin-bottom: 18px;
+  display: block;
+}
+
+/* line 346, ../sass/ocspsPhone.scss */
+h2 {
+  width: 143px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+/* line 356, ../sass/ocspsPhone.scss */
+.news_text {
+  display: inline-block;
+  width: 97%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 27px auto;
+}
+
+/* line 366, ../sass/ocspsPhone.scss */
+.block_share {
+  height: 32px;
+  width: auto;
+  margin: 31px 27px 19px 7%;
+}
+
+/* line 372, ../sass/ocspsPhone.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 90px;
+  height: 22px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 16px 0 0;
+  position: relative;
+  bottom: 4px;
+}
+
+/* line 386, ../sass/ocspsPhone.scss */
+.share_fb {
+  display: inline-block;
+  opacity: 0.7;
+  margin: 0 0 0 7px;
+}
+
+/* line 393, ../sass/ocspsPhone.scss */
+.share_vk {
+  display: inline-block;
+  border-style: none;
+  opacity: 0.7;
+}
+
+/* line 398, ../sass/ocspsPhone.scss */
+.share_fb:hover {
+  opacity: 1;
+}
+
+/* line 401, ../sass/ocspsPhone.scss */
+.share_vk:hover {
+  opacity: 1;
+}
+
+/* line 404, ../sass/ocspsPhone.scss */
+.news_img {
+  display: inline-block;
+  width: 227px;
+  height: 198px;
+  margin: 0 0 0 7%;
+}
+
+/*----blog----*/
+/* line 415, ../sass/ocspsPhone.scss */
+.new_training {
+  display: block;
+  margin: 30px 0 0 6%;
+}
+
+/* line 421, ../sass/ocspsPhone.scss */
+.anh_new_training {
+  background-color: #fe9900;
+  width: 204px;
+  height: 51px;
+  color: #fefefe;
+  font-family: "Segoe UI";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 52px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 10px 31px 11px 31px;
+  display: block;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  /* line 421, ../sass/ocspsPhone.scss */
+  .anh_new_training {
+    width: 233px;
+    height: 41px;
+    line-height: 44px;
+  }
+}
+
+/* line 441, ../sass/ocspsPhone.scss */
+.list_new_training {
+  width: 243px;
+  border: 1px solid #ccc;
+  padding: 13px 15px 15px 7px;
+  margin-bottom: 5px;
+}
+@media (min-width: 600px) {
+  /* line 441, ../sass/ocspsPhone.scss */
+  .list_new_training {
+    width: 271px;
+  }
+}
+
+/* line 451, ../sass/ocspsPhone.scss */
+.time_record {
+  margin-bottom: 9px;
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  height: 16px;
+}
+
+/* line 459, ../sass/ocspsPhone.scss */
+.head_text_training {
+  color: #fe9900;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 11px;
+}
+
+/* line 466, ../sass/ocspsPhone.scss */
+.inform_traning {
+  width: 102%;
+  font-family: "Segoe UI";
+  font-size: 18px;
+}
+
+/* line 476, ../sass/ocspsPhone.scss */
+
+
+
+/*     blog-news-training   */
+@media (min-width: 869px) {
+  /* line 637, ../sass/ocspsPhone.scss */
+  .new_training {
+    float: right;
+    margin: 30px 3% 0 0;
+  }
+
+  /* line 642, ../sass/ocspsPhone.scss */
+  .anh_new_training {
+    width: 201px;
+  }
+
+  /* line 646, ../sass/ocspsPhone.scss */
+  .list_new_training {
+    width: 239px;
+  }
+}
+@media (min-width: 798px) {
+  /* line 653, ../sass/ocspsPhone.scss */
+  .footer_contacts {
+    display: inline-block;
+    margin: 16px 26px 0 5.271186%;
+  }
+}
+
+@media (min-width: 1112px) {
+  /* line 664, ../sass/ocspsPhone.scss */
+  body {
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+  }
+
+  /* line 669, ../sass/ocspsPhone.scss */
+
+
+  /* line 708, ../sass/ocspsPhone.scss */
+
+
+  /* line 735, ../sass/ocspsPhone.scss */
+ 
+
+  /* --------content body______*/
+  /* line 794, ../sass/ocspsPhone.scss */
+  .news_block {
+    margin: 0 0 0 9.49152542372881%;
+  }
+
+  /* line 797, ../sass/ocspsPhone.scss */
+  .news {
+    width: 100%;
+  }
+
+  /* line 804, ../sass/ocspsPhone.scss */
+  h2 {
+    font-size: 20px;
+  }
+
+  /* line 807, ../sass/ocspsPhone.scss */
+  .news_text {
+    font-size: 16px;
+    width: 429px;
+  }
+
+  /* line 811, ../sass/ocspsPhone.scss */
+  .news_img {
+    margin: 0;
+    float: right;
+  }
+
+  /*----share----------*/
+  /* line 819, ../sass/ocspsPhone.scss */
+  .share_vk, .share_fb {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*------blog----*/
+  /* line 825, ../sass/ocspsPhone.scss */
+  .new_training {
+    margin-right: 7.2203389830508%;
+  }
+
+  /* line 828, ../sass/ocspsPhone.scss */
+  .anh_new_training {
+    font-size: 14px;
+    width: 185px;
+    height: 35px;
+    line-height: 36px;
+  }
+
+  /* line 834, ../sass/ocspsPhone.scss */
+  .list_new_training {
+    width: 223px;
+  }
+
+  /* line 837, ../sass/ocspsPhone.scss */
+  .head_text_training {
+    font-size: 13px;
+  }
+
+  /* line 840, ../sass/ocspsPhone.scss */
+  .inform_traning {
+    font-size: 12px;
+  }
+
+  /* line 843, ../sass/ocspsPhone.scss */
+  .time_record {
+    font-size: 12px;
+  }
+
+  /*-----footer------*/
+  /* line 848, ../sass/ocspsPhone.scss */
+  .footer_contacts {
+    margin: 16px 26px 0 32.271186%;
+  }
+
+  /* line 851, ../sass/ocspsPhone.scss */
+  .foter_youtube, .foter_fb, .foter_vk, .foter_inst {
+    width: 20px;
+    height: 20px;
+  }
+}

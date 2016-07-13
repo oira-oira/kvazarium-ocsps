@@ -1,0 +1,1321 @@
+/* line 1, ../sass/training_more.scss */
+select:active, select:focus, select:visited {
+  outline: none;
+}
+
+/* line 2, ../sass/training_more.scss */
+a:active, a:focus {
+  outline: none;
+}
+
+/* line 3, ../sass/training_more.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 4, ../sass/training_more.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/training_more.scss */
+button:active {
+  outline: none;
+}
+
+/* line 8, ../sass/training_more.scss */
+body {
+  width: 100%;
+}
+
+/* line 11, ../sass/training_more.scss */
+.head_info {
+  background-color: black;
+  width: 100%;
+  height: 79px;
+}
+
+/* line 17, ../sass/training_more.scss */
+.contacts {
+  height: 25px;
+  display: inline-block;
+  width: 303px;
+  margin: 4px 0 0 3.762712%;
+  float: left;
+}
+
+/* line 24, ../sass/training_more.scss */
+.contact-phone {
+  background: url("img/phon.png") no-repeat;
+  background-position: 7px 0;
+  padding-left: 20px;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Segoe UI";
+  color: #bababa;
+  font-weight: bold;
+  height: 13px;
+  margin: 11px 9.28571428571429% 0 0;
+  width: 109px;
+}
+
+/* line 38, ../sass/training_more.scss */
+.contact-mail {
+  background-position: 7px 0;
+  padding-left: 25px;
+  background: url("img/mail.png") no-repeat;
+  display: inline-block;
+  font-size: 12px;
+  font-family: "Segoe UI";
+  color: #bababa;
+  font-weight: bold;
+  height: 13px;
+  margin: 11px 0 0 0;
+  width: 116px;
+}
+
+/* line 52, ../sass/training_more.scss */
+.head_social {
+  width: 125px;
+  margin: 12px 16px 0 3%;
+  float: left;
+  display: none;
+}
+
+/* line 59, ../sass/training_more.scss */
+.facebook {
+  background: url("img/facebok.png");
+  margin: 0px 18px 0 0;
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 68, ../sass/training_more.scss */
+.vk {
+  background: url("img/vk.png");
+  margin: 0px 15px 0 0;
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 77, ../sass/training_more.scss */
+.instagram {
+  background: url("img/instagram.png");
+  margin: 6px 15px 0 0;
+  width: 20px;
+  height: 20px;
+  display: none;
+  opacity: 0.7;
+}
+
+/* line 85, ../sass/training_more.scss */
+.youtube {
+  background: url("img/youtube.png");
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 94, ../sass/training_more.scss */
+.vk:hover {
+  opacity: 1;
+}
+
+/* line 97, ../sass/training_more.scss */
+.youtube:hover {
+  opacity: 1;
+}
+
+/* line 100, ../sass/training_more.scss */
+.instagram {
+  opacity: 1;
+}
+
+/* line 103, ../sass/training_more.scss */
+.facebook:hover {
+  opacity: 1;
+}
+
+/* line 106, ../sass/training_more.scss */
+.lang_panel {
+  display: inline-block;
+  height: 33px;
+  width: 104px;
+  margin: 6px 11% 0 6%;
+}
+
+/* line 112, ../sass/training_more.scss */
+.rus {
+  font-size: 1.5em;
+  font-family: "Segoe UI";
+  color: white;
+  width: 72px;
+  height: 13px;
+  line-height: 1.453;
+  margin: 0px 10px 0 0;
+}
+
+/* line 124, ../sass/training_more.scss */
+.eng {
+  font-size: 1.5em;
+  font-family: "Segoe UI";
+  color: #fe9900;
+  margin: 0 0 0 10px;
+}
+
+/* line 130, ../sass/training_more.scss */
+.vertical-line {
+  border: 1px solid #fe9900;
+  width: 0px;
+  height: 18px;
+  margin-top: 0px;
+}
+
+/* line 136, ../sass/training_more.scss */
+.navigation {
+  display: inline-block;
+  width: 100%;
+  height: 68px;
+  background-color: #fe9900;
+}
+
+/* line 142, ../sass/training_more.scss */
+.logo {
+  background-image: url("img/logo-header.png");
+  width: 198px;
+  height: 43px;
+  display: block;
+  margin: 10px 5.0847458% 0 5.322034%;
+  float: left;
+}
+
+/* line 150, ../sass/training_more.scss */
+.hidden_list {
+  margin: 68px 0 0 0;
+  height: 171px;
+  position: relative;
+  background-color: #fe9900;
+  width: 100%;
+  display: block;
+}
+
+/* line 158, ../sass/training_more.scss */
+.about_us {
+  padding-right: 17px;
+  height: 27px;
+  display: block;
+  color: black;
+  font-family: "Segoe UI";
+  line-height: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 22.6px;
+  background-position: 53px 3px;
+}
+
+/* line 170, ../sass/training_more.scss */
+.about {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  width: 107px;
+  height: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/* line 182, ../sass/training_more.scss */
+.second_nav {
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+/* line 190, ../sass/training_more.scss */
+.about:hover {
+  color: white;
+}
+
+/* line 193, ../sass/training_more.scss */
+.training {
+  background-position: 89px 3px;
+  padding-right: 17px;
+  display: block;
+  height: 27px;
+  margin-left: 22.6px;
+}
+
+/* line 201, ../sass/training_more.scss */
+.training-short {
+  width: 100%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+/* line 210, ../sass/training_more.scss */
+.training-short:hover {
+  color: white;
+}
+
+/* line 213, ../sass/training_more.scss */
+.list_menu {
+  display: block;
+  height: 27px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left: 22.6px;
+}
+
+/* line 224, ../sass/training_more.scss */
+.second_menu {
+  display: none;
+  padding-top: 17px;
+  background-color: #fe9900;
+  width: 127px;
+  height: 124px;
+}
+
+/* line 234, ../sass/training_more.scss */
+.second_nav {
+  margin-left: 8px;
+  font-family: "Segoe UI";
+  font-size: 0.875em;
+  font-weight: 400;
+  color: black;
+  line-height: 30px;
+}
+
+/* line 243, ../sass/training_more.scss */
+.second_nav:hover {
+  color: white;
+}
+
+/* line 246, ../sass/training_more.scss */
+.third_menu {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  width: 180px;
+  height: 67px;
+  background-color: #fe9900;
+}
+
+/* line 254, ../sass/training_more.scss */
+.third_nav {
+  text-decoration: none;
+  width: 181px;
+  color: black;
+  margin-left: 6px;
+  font-family: "Segoe UI";
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* line 266, ../sass/training_more.scss */
+.third_nav:hover {
+  color: white;
+}
+
+/* line 269, ../sass/training_more.scss */
+.four_menu {
+  display: inline-block;
+  height: 14px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+/* line 279, ../sass/training_more.scss */
+.four_menu:hover {
+  color: white;
+}
+
+  /*__+______________gallery__________
+  .block_gallery{
+  width:99%;  // 1057px  89.5762712
+//width: 708px;
+margin: 34px 0 34px 1.1525424%;
+display: inline-block;
+//position:relative;
+}
+.name_gallery{
+  display:inline-block;
+  //width: 704px;
+//height: 19px;
+color: black;
+font-family: "Segoe UI";
+font-size: 1.5em;
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+text-transform: uppercase;
+}
+.gallery{
+  display:block;
+  width:198px;                //707px
+  margin-top:60px;
+}
+.img_gallery{
+  display:block;
+  width: 191px;
+  height: 145px;
+  margin: 0 0.91089108910891% 60px 0;       //63px
+  position:relative;
+  z-index: 4;
+}
+
+
+.hiden_img{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top:0;
+  background: #636466;
+  opacity:0.7;
+}
+.img_folder{
+  background-image:url("gall_img/full_scren.png");
+  width:44px;
+  height:44px;
+  margin:37px 73px 24px 74px;
+
+}
+.hidden_text{
+  width: 154px;
+height: 19px;
+color: white;
+font-family: "Segoe UI";
+font-size:1.25em;                 //20px;
+font-weight: 400;
+line-height: 6px;
+margin-left:24px;
+}
+.hiden_img:hover{
+opacity:0.59;
+}
+.last_gallery{
+  display:block;
+  width: 191px;
+  height: 145px;
+  margin:0 0 60px 0;
+  //float:right;
+  position:relative;
+}
+.training_img{
+  width:191px;
+  height:145px;
+  display:inline-block;
+}*/
+/*---content--------------------------*/
+/* line 363, ../sass/training_more.scss */
+.container {
+  width: 99%;
+}
+
+/* line 366, ../sass/training_more.scss */
+.information {
+  width: 61.5254237%;
+  margin: 35px 0 0 2.4067797%;
+  display: inline-block;
+  min-width: 311px;
+}
+
+/* line 372, ../sass/training_more.scss */
+.name_information {
+  width: 100%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+
+/* line 382, ../sass/training_more.scss */
+.previev {
+  width: 99%;
+  height: auto;
+  margin-bottom: 41px;
+  min-width: 306px;
+}
+
+/* line 388, ../sass/training_more.scss */
+.block_text {
+  width: 100%;
+  border-bottom: 2px solid #d7d7d7;
+}
+
+/* line 392, ../sass/training_more.scss */
+.descr {
+  width: 100%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 39px;
+}
+
+/* line 401, ../sass/training_more.scss */
+.media {
+  margin: 27px 0 0 1.3389831%;
+  display: inline-block;
+}
+
+/* line 405, ../sass/training_more.scss */
+.name_gall {
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 415, ../sass/training_more.scss */
+.left {
+  width: 27px;
+  height: 57px;
+  background-image: url("training_more/left.png");
+  display: inline-block;
+  margin: 0 0 67px 0;
+}
+
+/* line 422, ../sass/training_more.scss */
+.right {
+  width: 27px;
+  height: 57px;
+  background: url("training_more/right.png");
+  margin: 0 0 67px 0;
+  display: inline-block;
+}
+
+/* line 429, ../sass/training_more.scss */
+.gall_photo {
+  display: inline-block;
+}
+
+/* line 432, ../sass/training_more.scss */
+.photo1 {
+  width: 191px;
+  height: 145px;
+  margin: 23px;
+}
+
+/* line 437, ../sass/training_more.scss */
+.photo2 {
+  display: none;
+}
+
+/* line 440, ../sass/training_more.scss */
+.photo3 {
+  display: none;
+}
+
+/* line 443, ../sass/training_more.scss */
+.block_video {
+  width: 64.525424000000001%;
+  margin: 0 0 46px 4.5%;
+  border-bottom: 2px solid #d7d7d7;
+  padding-bottom: 27px;
+  display: inline-block;
+  border-top: 2px solid #d7d7d7;
+}
+
+/* line 451, ../sass/training_more.scss */
+.name_video_gal {
+  margin: 40px 0 19px 0;
+  width: 75px;
+  height: 23px;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+/* line 462, ../sass/training_more.scss */
+.video {
+  width: 191px;
+  height: 145px;
+  margin: 23px;
+  display: inline-block;
+}
+
+/* line 468, ../sass/training_more.scss */
+.training_video {
+  float: right;
+  width: 100%;
+  position: relative;
+}
+
+/* line 473, ../sass/training_more.scss */
+.prevev_video {
+  width: 191px;
+  height: 145px;
+}
+
+/* line 478, ../sass/training_more.scss */
+.video_play {
+  position: absolute;
+  background: url("training_more/play_video.png");
+  width: 52px;
+  z-index: 1;
+  top: 47px;
+  height: 52px;
+  left: 69px;
+  opacity: 0.7;
+}
+
+/* line 488, ../sass/training_more.scss */
+.registration {
+  margin: 0 0 0 1.3220339%;
+}
+
+/* line 491, ../sass/training_more.scss */
+.block_registr {
+  margin: 40px 0 0 6px;
+  display: inline-block;
+}
+
+/* line 495, ../sass/training_more.scss */
+.str_registration {
+  margin: 0 0  25px 0;
+  padding: 0;
+  display: block;
+}
+
+/* line 499, ../sass/training_more.scss */
+.str_name {
+  width: 127px;
+  height: 100%;
+  background-color: #ccc;
+}
+
+/* line 506, ../sass/training_more.scss */
+.str_input {
+  width: 204px;
+  height: 35px;
+  /* border: 1px solid #cccccc; */
+}
+
+/* line 512, ../sass/training_more.scss */
+.name_field {
+  margin: 9px 0 0 10px;
+  position: relative;
+  top: 8px;
+}
+
+/* line 517, ../sass/training_more.scss */
+.asterisc {
+  position: relative;
+  top: 7px;
+}
+
+/* line 521, ../sass/training_more.scss */
+.field_input {
+  height: 100%;
+  width: 94%;
+  background-color: white;
+  border: 1px solid #cccccc;
+}
+
+/* line 527, ../sass/training_more.scss */
+.text_send {
+  width: 76px;
+  height: 12px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 538, ../sass/training_more.scss */
+.send {
+  width: 223px;
+  height: 35px;
+  background-color: #fe9900;
+  margin-bottom: 51px;
+}
+
+/*----------share-----------------------*/
+/* line 553, ../sass/training_more.scss */
+.block_share {
+  width: 150px;
+  margin: 0 27px 19px 9.15254237288136%;
+  height: 22px;
+  display: block;
+}
+
+/* line 559, ../sass/training_more.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 570, ../sass/training_more.scss */
+.share_fb {
+  display: inline-block;
+  background-color: white;
+}
+
+/* line 580, ../sass/training_more.scss */
+.share_vk {
+  display: inline-block;
+}
+.share_fb, .share_vk{
+margin-left: 7px;
+}
+
+/*--------------------blog________________*/
+/* line 592, ../sass/training_more.scss */
+.new_training {
+  margin: 69px  0 0 4%;
+}
+
+/* line 597, ../sass/training_more.scss */
+.anh_new_training {
+  background-color: #fe9900;
+  width: 222px;
+  height: 35px;
+  color: #fefefe;
+  font-family: "Segoe UI";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  padding: 10px 31px 11px 31px;
+  display: block;
+  text-align: center;
+}
+
+/* line 612, ../sass/training_more.scss */
+.list_new_training {
+  width: 260px;
+  border: 1px solid #ccc;
+  padding: 13px 15px 15px 7px;
+  margin-bottom: 5px;
+}
+
+/* line 618, ../sass/training_more.scss */
+.time_record {
+  margin-bottom: 9px;
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+/* line 625, ../sass/training_more.scss */
+.head_text_training {
+  color: #fe9900;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 11px;
+}
+
+/* line 632, ../sass/training_more.scss */
+.inform_traning {
+  width: 260px;
+  font-family: "Segoe UI";
+  font-size: 14px;
+}
+
+/* line 642, ../sass/training_more.scss */
+footer {
+  width: 100%;
+  height: 64px;
+  background-color: #fe9900;
+  display: block;
+  clear: both;
+}
+
+/* line 649, ../sass/training_more.scss */
+.logo_copyright {
+  margin: 5px 0 0 4%;
+  display: inline-block;
+  float: left;
+}
+
+/* line 654, ../sass/training_more.scss */
+.footer_logo {
+  background-image: url("img/logo_footer.png");
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 40px;
+}
+
+/* line 660, ../sass/training_more.scss */
+.copyright {
+  width: 47px;
+  height: 7px;
+  color: lightgrey;
+  font-family: "Segoe UI";
+  font-size: 0.5em;
+  font-weight: 400;
+  line-height: 13px;
+}
+
+/* line 669, ../sass/training_more.scss */
+.footer_contacts {
+  margin: 16px 26px 0 26.271186400000001%;
+  display: none;
+}
+
+/* line 674, ../sass/training_more.scss */
+.footer_phone {
+  background: url("img/footer_phone.png");
+  background-repeat: no-repeat;
+  background-position: 1px 5px;
+  padding-left: 14px;
+  margin: 0 33px 0 0;
+  width: 146px;
+  height: 15px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+/* line 688, ../sass/training_more.scss */
+.footer_mail {
+  width: 145px;
+  height: 16px;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 33px;
+  background-color: white;
+  background: url("img/footer_mail.png");
+  background-repeat: no-repeat;
+  background-position: 0 7px;
+  padding-left: 20px;
+}
+
+/* line 702, ../sass/training_more.scss */
+.footer_social {
+  display: inline-block;
+  margin: 22px 9.4915254% 0 0;
+  float: right;
+}
+
+/* line 707, ../sass/training_more.scss */
+.foter_fb {
+  display: inline-block;
+  background-image: url("img/facebok.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 717, ../sass/training_more.scss */
+.foter_vk {
+  display: inline-block;
+  background-image: url("img/vk.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 16px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 727, ../sass/training_more.scss */
+.foter_inst {
+  display: none;
+  background-image: url("img/instagram.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+  opacity: 0.7;
+}
+
+/* line 736, ../sass/training_more.scss */
+.foter_youtube {
+  display: inline-block;
+  background-image: url("img/youtube.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  background-size: 100%;
+  opacity: 0.7;
+}
+
+/* line 745, ../sass/training_more.scss */
+.foter_fb:hover {
+  opacity: 1;
+}
+
+/* line 748, ../sass/training_more.scss */
+.foter_vk:hover {
+  opacity: 1;
+}
+
+/* line 751, ../sass/training_more.scss */
+.foter_inst:hover {
+  opacity: 1;
+}
+
+/* line 754, ../sass/training_more.scss */
+.foter_youtube:hover {
+  opacity: 1;
+}
+
+@media (min-width: 820px) {
+  /* line 757, ../sass/training_more.scss */
+  .footer_contacts {
+    display: inline-block;
+    margin: 16px 26px 0 5.271186%;
+  }
+}
+
+@media (min-width: 1180px) {
+  /* line 764, ../sass/training_more.scss */
+  .footer_contacts {
+    margin: 16px 26px 0 32.271186%;
+  }
+
+  /* line 767, ../sass/training_more.scss */
+  .foter_youtube, .foter_fb, .foter_vk, .foter_inst {
+    width: 20px;
+    height: 20px;
+  }
+}
+/*--------blog______________*/
+@media (min-width: 1173px) {
+  /* line 778, ../sass/training_more.scss */
+  .previev {
+    width: 723px;
+    height: 296px;
+    margin-bottom: 41px;
+  }
+
+  /* line 783, ../sass/training_more.scss */
+  .new_training {
+    display: inline-block;
+    float: right;
+    margin: 69px 0 0 5%;
+  }
+
+  /* line 788, ../sass/training_more.scss */
+  .anh_new_training {
+    background-color: #fe9900;
+    width: 164px;
+    height: 35px;
+    color: #fefefe;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    padding: 10px 31px 11px 31px;
+    display: block;
+    text-align: center;
+  }
+
+  /* line 803, ../sass/training_more.scss */
+  .list_new_training {
+    width: 202px;
+    border: 1px solid #ccc;
+    padding: 13px 15px 15px 7px;
+    margin-bottom: 5px;
+  }
+
+  /* line 809, ../sass/training_more.scss */
+  .time_record {
+    margin-bottom: 9px;
+    color: #5a5a5a;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  /* line 816, ../sass/training_more.scss */
+  .head_text_training {
+    color: #fe9900;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 11px;
+  }
+
+  /* line 823, ../sass/training_more.scss */
+  .inform_traning {
+    width: 201px;
+    font-family: "Segoe UI";
+    font-size: 12px;
+  }
+}
+/*photo-------------gall-------*/
+@media (min-width: 600px) {
+  /* line 834, ../sass/training_more.scss */
+  .photo2 {
+    width: 191px;
+    height: 145px;
+    margin: 23px;
+    display: inline-block;
+  }
+
+  /* line 840, ../sass/training_more.scss */
+  .left {
+    margin: 0 22px 67px 0;
+  }
+
+  /* line 843, ../sass/training_more.scss */
+  .right {
+    margin: 0 0 67px 22px;
+  }
+
+  /* line 846, ../sass/training_more.scss */
+  .block_video {
+    width: 64.525424000000001%;
+  }
+
+  /* line 849, ../sass/training_more.scss */
+  .container {
+    width: 100%;
+  }
+
+  /* line 852, ../sass/training_more.scss */
+  .information {
+    margin: 35px 0 0 9.4067797%;
+  }
+}
+@media (min-width: 912px) {
+  /* line 857, ../sass/training_more.scss */
+  .media {
+    margin: 27px 0 0 1.338983%;
+    display: inline-block;
+  }
+}
+@media (min-width: 985px) {
+  /* line 863, ../sass/training_more.scss */
+  .media {
+    margin: 27px 0 0 5.3389831%;
+  }
+}
+@media (min-width: 842px) {
+  /* line 868, ../sass/training_more.scss */
+  .photo3 {
+    width: 191px;
+    height: 145px;
+    margin: 23px;
+    display: inline-block;
+  }
+}
+/*_________top________________naw*/
+@media (min-width: 472px) {
+  /* line 880, ../sass/training_more.scss */
+  .lang_panel {
+    margin: 6px 17px 0 8%;
+    display: inline-block;
+  }
+}
+@media (min-width: 490px) {
+  /* line 887, ../sass/training_more.scss */
+  .lang_panel {
+    margin: 0 12px 0 6%;
+    display: inline-block;
+  }
+}
+@media (min-width: 477px) {
+  /* line 893, ../sass/training_more.scss */
+  .lang_panel {
+    margin-top: 2px;
+  }
+
+  /* line 896, ../sass/training_more.scss */
+  .head_social {
+    display: inline-block;
+  }
+}
+@media (min-width: 900px) {
+  /* line 901, ../sass/training_more.scss */
+  .head_social {
+    margin: 12px 16px 0 20%;
+  }
+
+  /* line 904, ../sass/training_more.scss */
+  .lang_panel {
+    margin: 0 10px 0 0;
+  }
+}
+@media (min-width: 900px) {
+  /* line 912, ../sass/training_more.scss */
+  .head_social {
+    margin: 12px 13% 0 20%;
+  }
+
+  /* line 915, ../sass/training_more.scss */
+  .lang_panel {
+    margin: 0 0px 0 0px;
+  }
+}
+@media (min-width: 1180px) {
+  /* line 925, ../sass/training_more.scss */
+  body {
+    width: 1180px;
+    margin: auto;
+  }
+
+  /* line 929, ../sass/training_more.scss */
+  .head_social {
+    width: 101px;
+    height: 22px;
+    margin: 6px 30px 0 455px;
+  }
+
+  /* line 934, ../sass/training_more.scss */
+  .facebook {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    opacity: 0.7;
+  }
+
+  /* line 941, ../sass/training_more.scss */
+  .vk {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    opacity: 0.7;
+  }
+
+  /* line 948, ../sass/training_more.scss */
+  .instagram {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+  }
+
+  /* line 955, ../sass/training_more.scss */
+  .youtube {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+  }
+
+  /* line 960, ../sass/training_more.scss */
+  .lang_panel {
+    margin: 4 0 0 0;
+    height: 26px;
+  }
+
+  /* line 964, ../sass/training_more.scss */
+  .vk:hover {
+    opacity: 1;
+  }
+
+  /* line 967, ../sass/training_more.scss */
+  .youtube:hover {
+    opacity: 1;
+  }
+
+  /* line 970, ../sass/training_more.scss */
+  .instagram {
+    opacity: 1;
+  }
+
+  /* line 973, ../sass/training_more.scss */
+  .facebook:hover {
+    opacity: 1;
+  }
+
+  /* line 976, ../sass/training_more.scss */
+  .rus {
+    font-size: 16px;
+  }
+
+  /* line 982, ../sass/training_more.scss */
+  .eng {
+    font-size: 16px;
+  }
+
+  /* line 987, ../sass/training_more.scss */
+  .hidden_list {
+    margin: 26px 0 0 0;
+    display: inline-block;
+    display: inline-block;
+    width: 828px;
+    height: 25px;
+    background-color: transparent;
+  }
+
+  /* line 995, ../sass/training_more.scss */
+  .about {
+    font-size: 1em;
+    line-height: 14px;
+    width: 68px;
+  }
+
+  /* line 1000, ../sass/training_more.scss */
+  .about_us {
+    background: url("gall_img/down.png") no-repeat;
+    background-position: 53px 3px;
+    padding-right: 17px;
+    display: inline-block;
+    height: 14px;
+    color: black;
+    width: 50px;
+  }
+
+  /* line 1011, ../sass/training_more.scss */
+  .training {
+    background: url("gall_img/down.png") no-repeat;
+    background-position: 89px 3px;
+    padding-right: 17px;
+    display: inline-block;
+    height: 14px;
+    width: 87px;
+  }
+
+  /* line 1020, ../sass/training_more.scss */
+  .training-short {
+    color: black;
+    font-size: 1em;
+    line-height: 13px;
+  }
+
+  /* line 1025, ../sass/training_more.scss */
+  .list_menu {
+    display: inline-block;
+    height: 14px;
+    font-size: 16px;
+    line-height: 13px;
+  }
+
+  /* line 1032, ../sass/training_more.scss */
+  .hidden_list > .training:hover > .third_menu {
+    display: block;
+  }
+
+  /* line 1035, ../sass/training_more.scss */
+  .hidden_list > .about_us:hover > .second_menu {
+    display: block;
+  }
+
+  /* line 1038, ../sass/training_more.scss */
+  .second_menu {
+    position: absolute;
+    left: 1px;
+  }
+
+  /* line 1043, ../sass/training_more.scss */
+  .second_nav:hover {
+    color: white;
+  }
+
+  /* line 1047, ../sass/training_more.scss */
+  .hidden_list > .training:hover > .third_menu {
+    display: block;
+  }
+
+  /* line 1050, ../sass/training_more.scss */
+  .third_nav:hover {
+    color: white;
+  }
+
+  /* line 1053, ../sass/training_more.scss */
+  .four_menu {
+    display: inline-block;
+    height: 14px;
+    color: black;
+    font-family: "Segoe UI";
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+  }
+
+  /* line 1063, ../sass/training_more.scss */
+  .visit_style {
+    color: white;
+  }
+
+  /* line 1066, ../sass/training_more.scss */
+  .four_menu:hover {
+    color: white;
+  }
+
+  /* line 1069, ../sass/training_more.scss */
+  .foter_youtube, .foter_fb, .foter_vk, .foter_inst {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 1073, ../sass/training_more.scss */
+  .footer_contacts {
+    margin: 16px 26px 0 32.271186%;
+  }
+}
+/*_______registration___________*/
+@media (min-width: 784px) {
+  /* line 1081, ../sass/training_more.scss */
+  .str_name {
+    width: 197px;
+    height: 100%;
+  }
+
+  /* line 1085, ../sass/training_more.scss */
+  .field_input {
+    width: 100%;
+  }
+
+  /* line 1088, ../sass/training_more.scss */
+  .registration {
+    margin: 0 0 0 9.3220339%;
+  }
+
+  /* line 1091, ../sass/training_more.scss */
+  .str_input {
+    width: 501px;
+  }
+}

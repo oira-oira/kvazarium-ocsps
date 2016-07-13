@@ -1,0 +1,175 @@
+/* line 1, ../sass/corp_training.scss */
+select:active, select:focus, select:visited {
+  outline: none;
+}
+
+/* line 2, ../sass/corp_training.scss */
+a:active, a:focus, a:visited {
+  outline: none;
+}
+
+/* line 3, ../sass/corp_training.scss */
+option:active, option:focus option:visited {
+  outline: none;
+}
+
+/* line 4, ../sass/corp_training.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/corp_training.scss */
+body {
+  width: 100%;
+}
+
+/* line 10, ../sass/corp_training.scss */
+
+
+/*---content--------------------------*/
+/* line 288, ../sass/corp_training.scss */
+.container {
+  width: 100%;
+}
+
+/* line 291, ../sass/corp_training.scss */
+.corp_client {
+  width: 77.15254237288136%;
+  margin: 35px 0 0 9.32203389830508%;
+}
+
+/* line 295, ../sass/corp_training.scss */
+.name_list {
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 31px;
+}
+
+/* line 305, ../sass/corp_training.scss */
+.text {
+  width: 100%;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* line 317, ../sass/corp_training.scss */
+.gall {
+  width: 90.152541999999997%;
+  margin: 35px 0 0 9.32203389830508%;
+  display: inline-block;
+}
+
+/* line 319, ../sass/corp_training.scss */
+.block_image {
+  width: 275px;
+  height: 179px;
+  border: 1px solid #fe9900;
+  margin-right: 4%;
+  float: left;
+  margin-bottom: 36px;
+}
+
+/* line 327, ../sass/corp_training.scss */
+.gal_nav {
+  width: 275px;
+  height: 179px;
+  display: inline-block;
+}
+
+/* line 332, ../sass/corp_training.scss */
+.img_gal {
+  width: 61px;
+  margin: 26px 0 21px 107px;
+  height: 61px;
+}
+
+/* line 338, ../sass/corp_training.scss */
+.name_gall {
+  width: 243px;
+  color: #010101;
+  font-family: OpenSans;
+  font-size: 1.0625em;
+  font-weight: 400;
+  line-height: 23px;
+  text-transform: uppercase;
+  margin: 0 0 0px 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 350, ../sass/corp_training.scss */
+.questions {
+  display: inline-block;
+  margin-bottom: 57px;
+}
+
+/*----------share-----------------------*/
+/* line 362, ../sass/corp_training.scss */
+.block_share {
+  margin: 0 27px 19px 9.15254237288136%;
+  display: block;
+}
+
+/* line 368, ../sass/corp_training.scss */
+.share {
+  text-align: center;
+  display: inline-block;
+  width: 66px;
+  height: 12px;
+  color: #858585;
+  font-family: "Segoe UI";
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 379, ../sass/corp_training.scss */
+.share_fb {
+  display: inline-block;
+  opacity: 0.7;
+  margin: 0 0 0 7px;
+}
+
+/* line 386, ../sass/corp_training.scss */
+.share_vk {
+  display: inline-block;
+  border-style: none;
+  opacity: 0.7;
+}
+
+/* line 391, ../sass/corp_training.scss */
+.share_fb:hover {
+  opacity: 1;
+}
+
+/* line 394, ../sass/corp_training.scss */
+.share_vk:hover {
+  opacity: 1;
+}
+
+/*__________footer__________________*/
+/* line 403, ../sass/corp_training.scss */
+
+
+
+@media (min-width: 1180px) {
+  /* line 580, ../sass/corp_training.scss */
+  body {
+    width: 1180px;
+    margin: auto;
+  }
+
+  /* line 584, ../sass/corp_training.scss */
+ 
+  .visit_style {
+    color: white;
+  }
+
+}
